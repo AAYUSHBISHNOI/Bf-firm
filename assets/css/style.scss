@@ -5,12 +5,12 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-.my_container{
-  max-width: 1440px;
-  padding-left: 12px;
-  padding-right: 12px;
-  margin-left: auto;
-  margin-right: auto;
+.custom_container{
+  max-width: 1440px !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 @font-face {
@@ -97,3 +97,8 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #fe6a5b;
   }
+  $color_1: blue;
+
+.my_text {
+	color: $color_1;
+}
