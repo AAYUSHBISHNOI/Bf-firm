@@ -1,0 +1,44 @@
+:root{
+
+    /* font size */
+    --fs_4xl:144px;
+    --fs_3xl:96px;
+    --fs_2xl:44px;
+    --fs_xl:40px;
+    --fs_md:27px;
+    --fs_lght:21px;
+    --fs_lg:20px;
+    --fs_sm:17px;
+    --fs_xsm:16px;
+    --fs_xxsm:13px;
+}
+.fs_4xl{
+    font-size: var(--fs_4xl);
+}
+.fs_3xl{
+    font-size: var(--fs_3xl);
+}
+.fs_2xl{
+    font-size: var(--fs_2xl);
+}
+.fs_xl{
+    font-size: var(--fs_xl);
+}
+.fs_md{
+    font-size: var(--fs_md);
+}
+.fs_lg{
+    font-size: var(--fs_lg);
+}
+.fs_lght{
+    font-size: var(--fs_lght);
+}
+.fs_sm{
+    font-size: var(--fs_sm);
+}
+.fs_xsm{
+    font-size: var(--fs_xsm);
+}
+.fs_xxsm{
+    font-size: var(--fs_xxsm);
+}
