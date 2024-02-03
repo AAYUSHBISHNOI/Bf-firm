@@ -313,4 +313,126 @@ p {
   border-top: none;
   border-bottom: none;
   border-right: none;
+}
+
+@media (min-width: 576px) {
+  .img_wdth_section_real {
+    width: 80%;
+  }
+  .margin_top_150 {
+    margin-top: 0px;
+  }
+  .img_bussiness {
+    width: 60%;
+  }
+  :root {
+    --fs_4xl:144px;
+    --fs_3xl:78px;
+    --fs_2xl:44px;
+    --fs_xl:40px;
+    --fs_md:27px;
+    --fs_lght:21px;
+    --fs_lg:20px;
+    --fs_sm:17px;
+    --fs_xsm:16px;
+    --fs_xxsm:13px;
+  }
+}
+@media (min-width: 768px) {
+  .img_wdth_section_real {
+    width: 100%;
+  }
+  .img_bussiness {
+    width: 100%;
+  }
+  .col_border_right_bottom {
+    border-bottom-right-radius: 231px;
+  }
+  .img_construction {
+    transform: translateY(5%);
+  }
+  .grey-hr {
+    width: 70%;
+    opacity: 0.15;
+    background: #000000;
+  }
+  .hr_business {
+    height: 2px;
+    width: 90%;
+    opacity: 0.15;
+    background-color: white;
+  }
+  .margin_top_150 {
+    margin-top: 50px;
+  }
+  :root {
+    --fs_4xl:144px;
+    --fs_3xl:52px;
+    --fs_2xl:44px;
+    --fs_xl:40px;
+    --fs_md:27px;
+    --fs_lght:16px;
+    --fs_lg:20px;
+    --fs_sm:17px;
+    --fs_xsm:16px;
+    --fs_xxsm:13px;
+  }
+}
+@media (min-width: 992px) {
+  .col_border_right_bottom {
+    border-bottom-right-radius: 231px;
+  }
+  .grey-hr {
+    width: 70%;
+    opacity: 0.15;
+    background: #000000;
+  }
+  .hr_business {
+    height: 2px;
+    width: 70%;
+    opacity: 0.15;
+    background-color: white;
+  }
+  .margin_top_150 {
+    margin-top: 40px;
+  }
+  :root {
+    --fs_4xl:144px;
+    --fs_3xl:76px;
+    --fs_2xl:44px;
+    --fs_xl:40px;
+    --fs_md:27px;
+    --fs_lght:21px;
+    --fs_lg:20px;
+    --fs_sm:17px;
+    --fs_xsm:16px;
+    --fs_xxsm:13px;
+  }
+}
+@media (min-width: 1024px) {
+  .margin_top_150 {
+    margin-top: 50px;
+  }
+  :root {
+    --fs_4xl:144px;
+    --fs_3xl:96px;
+    --fs_2xl:44px;
+    --fs_xl:40px;
+    --fs_md:27px;
+    --fs_lght:21px;
+    --fs_lg:20px;
+    --fs_sm:17px;
+    --fs_xsm:16px;
+    --fs_xxsm:13px;
+  }
+}
+@media (min-width: 1200px) {
+  .margin_top_150 {
+    margin-top: 90px;
+  }
+}
+@media (min-width: 1320px) {
+  .margin_top_150 {
+    margin-top: 150px;
+  }
 }/*# sourceMappingURL=root.css.map */
