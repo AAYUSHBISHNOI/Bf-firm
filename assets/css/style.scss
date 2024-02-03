@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 *{
   padding: 0;
   margin: 0;
@@ -11,6 +12,9 @@
   padding-right: 12px !important;
   margin-left: auto !important;
   margin-right: auto !important;
+}
+.font_roboto{
+  font-family: "Roboto";
 }
 
 @font-face {
@@ -97,8 +101,19 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #fe6a5b;
   }
-  $color_1: blue;
+  /********* Font weight  ************/ 
+  .fw_600{
 
-.my_text {
-	color: $color_1;
-}
+    font-weight: 600;
+  }
+  .fw_700{
+    font-weight: 700;
+  }
+  .fw_800{
+    font-weight: 800;
+  }
+  .fw_900{
+    font-weight: 900;
+  }
+
+  /********* Section Real ************/ 
