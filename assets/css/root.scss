@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none !important;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  .custom_container{
+    max-width: 1440px !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  @font-face {
+    font-family: "Greycliff_CF";
+    src: url("../fonts/Greycliff_CF/Greycliffcf-heavy.otf");
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Greycliff_CF";
+    src: url("../fonts/Greycliff_CF/Greycliffcf-extrabold.otf");
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Greycliff_CF";
+    src: url("../fonts/Greycliff_CF/Greycliffcf-Bold.otf");
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Greycliff_CF";
+    src: url("../fonts/Greycliff_CF/Greycliffcf-demibold.otf");
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Greycliff_CF";
+    src: url("../fonts/Greycliff_CF/GreycliffCF-Medium.otf");
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Greycliff_CF";
+    src: url("../fonts/Greycliff_CF/Greycliffcf-regular.otf");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Greycliff_CF";
+    src: url("../fonts/Greycliff_CF/Greycliffcf-light.otf");
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Greycliff_CF";
+    src: url("../fonts/Greycliff_CF/Greycliffcf-thin.otf");
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Greycliff_CF";
+    src: url("../fonts/Greycliff_CF/Greycliffcf-extralight.otf");
+    font-weight: 100;
+    font-style: normal;
+  }
+  .font_roboto{
+    font-family: "Roboto";
+  }
+  
+  /**********************Scroll**************************/
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* ::-webkit-scrollbar:focus {
+    50px
+  } */
+  
+  ::-webkit-scrollbar-track {
+    background: #000;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #fe6a5b;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fe6a5b;
+  }
+  /********* Font weight  ************/ 
+  .fw_600{
+
+    font-weight: 600;
+  }
+  .fw_700{
+    font-weight: 700;
+  }
+  .fw_800{
+    font-weight: 800;
+  }
+  .fw_900{
+    font-weight: 900;
+  }
+
+  /********* Section Real ************/ 
+.peach-hr {
+  width: 27px;
+  background: #fe6a5b;
+  opacity: 1;
+}
+.grey-hr {
+  width: 70%;
+  opacity: 0.15;
+  background: #000000;
+}
+:root{
+
+    /* font size */
+    --fs_4xl:144px;
+    --fs_3xl:96px;
+    --fs_2xl:44px;
+    --fs_xl:40px;
+    --fs_md:27px;
+    --fs_lght:21px;
+    --fs_lg:20px;
+    --fs_sm:17px;
+    --fs_xsm:16px;
+    --fs_xxsm:13px;
+}
+.fs_4xl{
+    font-size: var(--fs_4xl);
+}
+.fs_3xl{
+    font-size: var(--fs_3xl);
+}
+.fs_2xl{
+    font-size: var(--fs_2xl);
+}
+.fs_xl{
+    font-size: var(--fs_xl);
+}
+.fs_md{
+    font-size: var(--fs_md);
+}
+.fs_lg{
+    font-size: var(--fs_lg);
+}
+.fs_lght{
+    font-size: var(--fs_lght);
+}
+.fs_sm{
+    font-size: var(--fs_sm);
+}
+.fs_xsm{
+    font-size: var(--fs_xsm);
+}
+.fs_xxsm{
+    font-size: var(--fs_xxsm);
+}
+
+.my_para{
+    color: red;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0 !important;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0 !important;
+}
