@@ -1,9 +1,9 @@
-* {
-	padding: 0;
-	margin: 0;
-	list-style: none !important;
-	box-sizing: border-box;
-	text-decoration: none;
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none !important;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 .container{
   max-width: 1440px;
@@ -11,6 +11,9 @@
   padding-right: 12px;
   margin-left: auto;
   margin-right: auto;
+}
+.font_roboto{
+  font-family: "Roboto";
 }
 
 @font-face {
@@ -97,3 +100,8 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #fe6a5b;
   }
+  $color_1: blue;
+
+.my_text {
+	color: $color_1;
+}
