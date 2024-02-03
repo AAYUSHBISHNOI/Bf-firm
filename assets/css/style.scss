@@ -5,12 +5,12 @@
 	box-sizing: border-box;
 	text-decoration: none;
 }
-.my_container {
-	max-width: 1440px !important;
-	padding-left: 12px;
-	padding-right: 12px;
-	margin-left: auto;
-	margin-right: auto;
+.container{
+  max-width: 1440px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @font-face {
@@ -84,16 +84,16 @@
 /* ::-webkit-scrollbar:focus {
     50px
   } */
-
-::-webkit-scrollbar-track {
-  background: #000;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #fe6a5b;
-  border-radius: 5px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #fe6a5b;
-}
+  
+  ::-webkit-scrollbar-track {
+    background: #000;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #fe6a5b;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fe6a5b;
+  }
