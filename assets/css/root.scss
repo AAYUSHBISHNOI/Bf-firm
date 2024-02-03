@@ -12,47 +12,36 @@
   --fs_xsm: 16px;
   --fs_xxsm: 13px;
 }
-
 .fs_4xl {
   font-size: var(--fs_4xl);
 }
-
 .fs_3xl {
   font-size: var(--fs_3xl);
 }
-
 .fs_2xl {
   font-size: var(--fs_2xl);
 }
-
 .fs_xl {
   font-size: var(--fs_xl);
 }
-
 .fs_md {
   font-size: var(--fs_md);
 }
-
 .fs_lg {
   font-size: var(--fs_lg);
 }
-
 .fs_lght {
   font-size: var(--fs_lght);
 }
-
 .fs_sm {
   font-size: var(--fs_sm);
 }
-
 .fs_xsm {
   font-size: var(--fs_xsm);
 }
-
 .fs_xxsm {
   font-size: var(--fs_xxsm);
 }
-
 * {
   padding: 0;
   margin: 0;
@@ -60,7 +49,6 @@
   box-sizing: border-box !important;
   text-decoration: none !important;
 }
-
 .my_container {
   max-width: 1440px;
   padding-left: 12px;
@@ -68,23 +56,19 @@
   margin-left: auto;
   margin-right: auto;
 }
-
 .main_heading {
   color: red;
 }
-
 dl,
 ol,
 ul {
   margin-top: 0;
   margin-bottom: 0 !important;
 }
-
 ol,
 ul {
   padding-left: 0 !important;
 }
-
 .h1,
 .h2,
 .h3,
@@ -99,12 +83,10 @@ h5,
 h6 {
   margin-bottom: 0 !important;
 }
-
 p {
   margin-top: 0;
   margin-bottom: 0 !important;
 }
-
 .font_roboto {
   font-family: "Roboto";
 }
@@ -115,54 +97,63 @@ p {
   font-weight: 900;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Greycliff_CF";
   src: url("../fonts/Greycliff_CF/Greycliffcf-extrabold.otf");
   font-weight: 800;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Greycliff_CF";
   src: url("../fonts/Greycliff_CF/Greycliffcf-Bold.otf");
   font-weight: 700;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Greycliff_CF";
   src: url("../fonts/Greycliff_CF/Greycliffcf-demibold.otf");
   font-weight: 600;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Greycliff_CF";
   src: url("../fonts/Greycliff_CF/GreycliffCF-Medium.otf");
   font-weight: 500;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Greycliff_CF";
   src: url("../fonts/Greycliff_CF/Greycliffcf-regular.otf");
   font-weight: 400;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Greycliff_CF";
   src: url("../fonts/Greycliff_CF/Greycliffcf-light.otf");
   font-weight: 300;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Greycliff_CF";
   src: url("../fonts/Greycliff_CF/Greycliffcf-thin.otf");
   font-weight: 200;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Greycliff_CF";
   src: url("../fonts/Greycliff_CF/Greycliffcf-extralight.otf");
   font-weight: 100;
   font-style: normal;
 }
+
 /**********************Scroll**************************/
 ::-webkit-scrollbar {
   width: 6px;
@@ -171,6 +162,7 @@ p {
 /* ::-webkit-scrollbar:focus {
       50px
     } */
+
 ::-webkit-scrollbar-track {
   background: #000;
 }
@@ -183,27 +175,23 @@ p {
 ::-webkit-scrollbar-thumb:hover {
   background: #fe6a5b;
 }
-
+// -------------------nav-----------------
 .min_h_890 {
   min-height: 100vh;
 }
-
 .nav_links {
   font-weight: 700;
   line-height: 150% !important;
   color: #ffffff;
   opacity: 0.5;
 }
-
 .nav_links:hover {
   opacity: 1;
 }
-
 .nav_line {
   position: relative !important;
   transition: all 350ms linear !important;
 }
-
 .nav_line::after {
   content: "";
   position: absolute !important;
@@ -214,27 +202,22 @@ p {
   top: 50%;
   transition: all 350ms linear !important;
 }
-
 .nav_line:hover::after {
   width: 30px;
 }
-
 .nav_links_padding {
   padding: 9px 0px;
 }
-
 .logo_w_180 {
   width: 180px;
 }
-
 .line {
   background-color: #fff;
   height: 2px;
   width: 20px;
 }
-
 @media (max-width: 1200px) {
-  label[for=menuicon] {
+  label[for="menuicon"] {
     cursor: pointer;
     width: 34px;
     height: 28px;
@@ -244,7 +227,7 @@ p {
     align-items: center;
     z-index: 999 !important;
   }
-  label[for=menuicon] > span {
+  label[for="menuicon"] > span {
     width: 100% !important;
     height: 5px !important;
     background-color: #fff;
@@ -265,52 +248,50 @@ p {
     pointer-events: none;
     transition: all 600ms ease-in-out;
   }
-  input[type=checkbox]:checked + ul.sm-screen {
+  input[type="checkbox"]:checked + ul.sm-screen {
     left: 0;
     opacity: 1;
     pointer-events: all;
     z-index: 85 !important;
   }
+
   .ms-5 {
     margin-left: 0 !important;
     margin-top: 20px;
     margin-bottom: 20px;
   }
 }
+
+// ---------------navend-----------------------------
+// ---------------hero_section-----------------------
 .real_estate {
   font-weight: 700;
   letter-spacing: 0.3em !important;
 }
-
 .adovcate_text {
   font-weight: 800;
   letter-spacing: -0.05em;
   line-height: 80% !important;
 }
-
 .text_orange {
   color: #fe6a5b !important;
 }
-
 .mt_30 {
   margin-top: 30px;
 }
-
 .header_bg {
   position: absolute;
   top: 0;
   right: 0;
 }
-
 .characters_img {
   position: absolute;
   bottom: 0;
   right: 0;
 }
-
 .border-grey-left {
   border: 1px solid #262626;
   border-top: none;
   border-bottom: none;
   border-right: none;
-}/*# sourceMappingURL=root.css.map */
+}

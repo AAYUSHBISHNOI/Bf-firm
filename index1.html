@@ -5,29 +5,66 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    <link rel="stylesheet" href="./assets/css/style.scss">
     <link rel="stylesheet" href="./assets/css/root.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body class=" bg-black">
-    <div>
+    <div class=" position-relative min_h_890 overflow-hidden">
+        <div class=" z-n1">
+            <img class=" header_bg " src="./assets/img/Homepage/svg/header-bg.svg" alt=" header_bg">
+            <img class=" characters_img" src="./assets/img/Homepage/webp/characters-home.webp" alt=" characters_img">
+        </div>
         <nav>
-            <div class=" container  ">
+            <div class=" my_container">
                 <div class=" row">
-                    <div class=" col-lg-2">
+                    <div class=" col-lg-2 p-5">
                         <div>
-                            <img src="./assets/img/Homepage/svg/logo.svg" alt=" nav_logo">
+                            <img class=" logo_w_180" src="./assets/img/Homepage/svg/logo.svg" alt=" nav_logo">
                         </div>
-                        <ul class="mt-5">
-                            <li><a href="" class="fs_xsm">Home</a></li>
-                            <li><a href="">Practice Areas</a></li>
-                            <li><a href="">News</a></li>
-                            <li><a href="">Team</a></li>
-                            <li><a href="">Contact</a></li>
+                        <label for="menuicon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </label>
+                        <input type="checkbox" id="menuicon" hidden>
+                        <ul class=" sm-screen">
+                            <li class="nav_links_padding nav_line mt-4"><a href=""
+                                    class="fs_xsm  nav_links font_roboto">Home</a></li>
+                            <li class="nav_links_padding nav_line"><a href=""
+                                    class="fs_xsm nav_links font_roboto">Practice
+                                    Areas</a></li>
+                            <li class="nav_links_padding nav_line"><a href=""
+                                    class="fs_xsm nav_links font_roboto">News</a></li>
+                            <li class="nav_links_padding nav_line"><a href=""
+                                    class="fs_xsm nav_links font_roboto">Team</a></li>
+                            <li class="nav_links_padding nav_line"><a href=""
+                                    class="fs_xsm nav_links font_roboto">Contact</a>
+                            </li>
+
                         </ul>
                     </div>
+                    <div class=" col-lg-5 mt-3 pt-5 z-1 position-relative border-grey-left  ">
+                        <div class="">
+
+                        </div>
+                        <p class=" text-white fs_xsm  real_estate text-uppercase font_roboto mt-5 pt-5">
+                            REAL ESTATE. BUSINESS. CONSTRUCTION.
+                        </p>
+                        <h1 class=" text-white fs_4xl font_roboto adovcate_text text-uppercase mt_30 pb-4 ">we <span
+                                class=" d-block">are</span> <span class="text_orange d-block"> advocates.</span>
+                        </h1>
+                        <div class=" pt-5 mt-5">
+                            <img src="./assets/img/Homepage/svg/scroll-down.svg" alt=" scroll_down">
+                        </div>
+                    </div>
+                    <!-- <div class=" col-lg-5 z-2   ">
+                        <img class="characters_img z-n1   " src="./assets/img/Homepage/svg/header-bg.svg"
+                            alt=" header_bg">
+                        <img class=" " src="./assets/img/Homepage/webp/characters-home.webp" alt=" characters_img">
+
+                    </div> -->
                 </div>
             </div>
         </nav>
