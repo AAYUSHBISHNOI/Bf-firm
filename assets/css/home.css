@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none !important;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  .custom_container{
+    max-width: 1440px !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  @font-face {
+    font-family: "Greycliff_CF";
+    src: url("../fonts/Greycliff_CF/Greycliffcf-heavy.otf");
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Greycliff_CF";
+    src: url("../fonts/Greycliff_CF/Greycliffcf-extrabold.otf");
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Greycliff_CF";
+    src: url("../fonts/Greycliff_CF/Greycliffcf-Bold.otf");
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Greycliff_CF";
+    src: url("../fonts/Greycliff_CF/Greycliffcf-demibold.otf");
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Greycliff_CF";
+    src: url("../fonts/Greycliff_CF/GreycliffCF-Medium.otf");
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Greycliff_CF";
+    src: url("../fonts/Greycliff_CF/Greycliffcf-regular.otf");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Greycliff_CF";
+    src: url("../fonts/Greycliff_CF/Greycliffcf-light.otf");
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Greycliff_CF";
+    src: url("../fonts/Greycliff_CF/Greycliffcf-thin.otf");
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Greycliff_CF";
+    src: url("../fonts/Greycliff_CF/Greycliffcf-extralight.otf");
+    font-weight: 100;
+    font-style: normal;
+  }
+  .font_roboto{
+    font-family: "Roboto";
+  }
+  
+  /**********************Scroll**************************/
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #000;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #fe6a5b;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fe6a5b;
+  }
+
+/*********** Line Height********************/ 
+.line_height_100{
+    line-height: 100%;
+}
+
+  /********* Font weight  ************/ 
+  .fw_600{
+
+    font-weight: 600;
+  }
+  .fw_700{
+    font-weight: 700;
+  }
+  .fw_800{
+    font-weight: 800;
+  }
+  .fw_900{
+    font-weight: 900;
+  }
+
+  /********* Section Real ************/ 
+.line_heading{
+    width: 27px;
+    height: 1px;
+    background-color: #fe6a5b;
+}
+.Letter_space_03{
+    letter-spacing: 5px !important;
+}
+.letter_space_01{
+    letter-spacing: -1px;
+}
+.color_peach {
+    color: #fe6a5b;
+}
+.grey-hr {
+  width: 100%;
+  opacity: 0.15;
+  background: #000000;
+}
+.font_opacity_07{
+    opacity: 0.7;
+}
+.col_border_right_bottom{
+    border-bottom-right-radius: 0px;
+}
+.img_wdth_section_real{
+    width: 100%;
+}
+
+/**************** Section Business **********************/ 
+.margin_top_150{
+    margin-top: 0px;
+}
+.hr_business{
+    height: 2px;
+    width: 100%;
+    opacity: 0.15;
+    background-color: white;
+}
+.img_bussiness{
+    width: 100%;
+}
+
+/**************** Section Construction **********************/ 
+.img_construction{
+    width: 100%;
+   transform: translateY(5%) !important;
+}
+
+/**************** Slider **********************/ 
+.hammer_img{
+  width:90%;
+ }
+.hammer_pos_absoulute{
+  top: 2%;
+
+
+
+}
+.mb_150{margin-bottom: 150px;}
+.news-slider .content {
+  width: 382px;
+  height: 469px;
+  background: #ffffff;
+  border: 4px solid #000000;
+  border-radius: 0px 0px 48px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/**************** Root **********************/ 
+
+:root{
+
+    /* font size */
+    --fs_4xl:144px;
+    --fs_3xl:68px;
+    --fs_2xl:44px;
+    --fs_xl:40px;
+    --fs_md:27px;
+    --fs_lght:18px;
+    --fs_lg:20px;
+    --fs_sm:17px;
+    --fs_xsm:16px;
+    --fs_xxsm:13px;
+}
+.fs_4xl{
+    font-size: var(--fs_4xl);
+}
+.fs_3xl{
+    font-size: var(--fs_3xl);
+}
+.fs_2xl{
+    font-size: var(--fs_2xl);
+}
+.fs_xl{
+    font-size: var(--fs_xl);
+}
+.fs_md{
+    font-size: var(--fs_md);
+}
+.fs_lg{
+    font-size: var(--fs_lg);
+}
+.fs_lght{
+    font-size: var(--fs_lght);
+}
+.fs_sm{
+    font-size: var(--fs_sm);
+}
+.fs_xsm{
+    font-size: var(--fs_xsm);
+}
+.fs_xxsm{
+    font-size: var(--fs_xxsm);
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0 !important;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0 !important;
+}
+@media (min-width:576px) {
+      .img_wdth_section_real{
+        width: 80%;
+    }
+    .margin_top_150{
+        margin-top: 0px;
+    }
+    .img_bussiness{
+        width: 60%;
+    }
+    :root{
+        --fs_4xl:144px;
+        --fs_3xl:78px;
+        --fs_2xl:44px;
+        --fs_xl:40px;
+        --fs_md:27px;
+        --fs_lght:21px;
+        --fs_lg:20px;
+        --fs_sm:17px;
+        --fs_xsm:16px;
+        --fs_xxsm:13px;
+    }
+}
+@media (min-width:768px) {
+    .img_wdth_section_real{
+        width: 100%;
+    }
+    .img_bussiness{
+        width: 100%;
+    }
+    .col_border_right_bottom{
+        border-bottom-right-radius: 231px;
+    }
+    .img_construction{
+       transform: translateY(5%);
+    }
+    
+    .grey-hr {
+        width: 70%;
+        opacity: 0.15;
+        background: #000000;
+    }
+    .hr_business{
+        height: 2px;
+        width: 90%;
+        opacity: 0.15;
+        background-color: white;
+    }
+    .margin_top_150{
+        margin-top: 50px;
+    }
+      :root{
+        --fs_4xl:144px;
+        --fs_3xl:52px;
+        --fs_2xl:44px;
+        --fs_xl:40px;
+        --fs_md:27px;
+        --fs_lght:16px;
+        --fs_lg:20px;
+        --fs_sm:17px;
+        --fs_xsm:16px;
+        --fs_xxsm:13px;
+    }
+}
+@media (min-width:992px) {
+    .col_border_right_bottom{
+        border-bottom-right-radius: 231px;
+    }
+    .grey-hr {
+        width: 70%;
+        opacity: 0.15;
+        background: #000000;
+    }
+    .hr_business{
+        height: 2px;
+        width: 70%;
+        opacity: 0.15;
+        background-color: white;
+    }
+    .margin_top_150{
+        margin-top: 40px;
+    }
+      :root{
+        --fs_4xl:144px;
+        --fs_3xl:76px;
+        --fs_2xl:44px;
+        --fs_xl:40px;
+        --fs_md:27px;
+        --fs_lght:21px;
+        --fs_lg:20px;
+        --fs_sm:17px;
+        --fs_xsm:16px;
+        --fs_xxsm:13px;
+    }
+}
+@media (min-width:1024px) {
+    .margin_top_150{
+        margin-top: 50px;
+    }
+    :root{
+        --fs_4xl:144px;
+        --fs_3xl:96px;
+        --fs_2xl:44px;
+        --fs_xl:40px;
+        --fs_md:27px;
+        --fs_lght:21px;
+        --fs_lg:20px;
+        --fs_sm:17px;
+        --fs_xsm:16px;
+        --fs_xxsm:13px;
+    }
+}
+@media (min-width:1200px) {
+    .margin_top_150{
+        margin-top: 90px;
+    }
+}
+@media (min-width:1320px) {
+    .margin_top_150{
+        margin-top: 150px;
+    }
+}
