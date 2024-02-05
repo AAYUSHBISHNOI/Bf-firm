@@ -184,8 +184,14 @@ p {
   background: #fe6a5b;
 }
 
-.min_h_890 {
-  min-height: 100vh;
+/*********** Line Height********************/
+.line_height_100 {
+  line-height: 100%;
+}
+
+/********* Font weight  ************/
+.fw_600 {
+  font-weight: 600;
 }
 
 .nav_links {
@@ -195,24 +201,85 @@ p {
   opacity: 0.5;
 }
 
-.nav_links:hover {
-  opacity: 1;
+.fw_800 {
+  font-weight: 800;
 }
 
-.nav_line {
-  position: relative !important;
-  transition: all 350ms linear !important;
+.fw_900 {
+  font-weight: 900;
 }
 
-.nav_line::after {
-  content: "";
-  position: absolute !important;
-  width: 0;
+/********* Section Real ************/
+.line_heading {
+  width: 27px;
   height: 1px;
-  background-color: #fe6a5b !important;
-  left: -40px;
-  top: 50%;
-  transition: all 350ms linear !important;
+  background-color: #fe6a5b;
+}
+
+.Letter_space_03 {
+  letter-spacing: 5px !important;
+}
+
+.letter_space_01 {
+  letter-spacing: -1px;
+}
+
+.color_peach {
+  color: #fe6a5b;
+}
+
+.grey-hr {
+  width: 100%;
+  opacity: 0.15;
+  background: #000000;
+}
+
+.font_opacity_07 {
+  opacity: 0.7;
+}
+
+.col_border_right_bottom {
+  border-bottom-right-radius: 0px;
+}
+
+.img_wdth_section_real {
+  width: 100%;
+}
+
+/**************** Section Business **********************/
+.margin_top_150 {
+  margin-top: 0px;
+}
+
+.hr_business {
+  height: 2px;
+  width: 100%;
+  opacity: 0.15;
+  background-color: white;
+}
+
+.img_bussiness {
+  width: 100%;
+}
+
+/**************** Section Construction **********************/
+.img_construction {
+  width: 100%;
+}
+
+/**************** Root **********************/
+:root {
+  /* font size */
+  --fs_4xl:144px;
+  --fs_3xl:68px;
+  --fs_2xl:44px;
+  --fs_xl:40px;
+  --fs_md:27px;
+  --fs_lght:18px;
+  --fs_lg:20px;
+  --fs_sm:17px;
+  --fs_xsm:16px;
+  --fs_xxsm:13px;
 }
 
 .nav_line:hover::after {
@@ -308,11 +375,14 @@ p {
   right: 0;
 }
 
-.border-grey-left {
-  border: 1px solid #262626;
-  border-top: none;
-  border-bottom: none;
-  border-right: none;
+p {
+  margin-top: 0;
+  margin-bottom: 0 !important;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0 !important;
 }
 
 @media (min-width: 576px) {
