@@ -309,7 +309,7 @@ p {
   opacity: 0.6 !important;
 }
 .height_section{
-  min-height: 700px;
+  min-height: 1000px;
 }
 .margin_col{
   padding-top: 40px;
@@ -342,8 +342,11 @@ p {
     }
     .img_milad{
       width: 37%;
-      top: 46.3%;
+      top: 54%;
     }
+    .height_section {
+      min-height: 753px;
+  }
     .img_cherry {
       width: 55%;
       top: 35%;
@@ -364,13 +367,16 @@ p {
 }
   .img_milad {
     width: 33%;
-    top: 46%;
+    top: 50%;
+}
+.height_section {
+  min-height: 800px;
 }
 .img_cherry {
   width: 45%;
   right: 5% !important;
   position: absolute;
-  top: 47%;
+  top: 33%;
 }
 .margin_icon {
   margin-bottom: 200px;
@@ -422,7 +428,7 @@ p {
     }
       :root{
         --fs_4xl:144px;
-        --fs_3xl:52px;
+        --fs_3xl:38px;
         --fs_2xl:44px;
         --fs_xl:35px;
         --fs_md:27px;
@@ -456,8 +462,11 @@ p {
   .img_milad {
     width: 45%;
     position: absolute;
-    top: 14%;
+    top: 18.5%;
     right: 0;
+}
+.height_section {
+  min-height: 970px;
 }
 .img_cherry {
   width: 60%;
@@ -502,8 +511,11 @@ p {
     .img_milad {
       object-fit: cover;
       height: 730px;
-      top: 12%;
+      top: 16%;
   }
+  .img_cherry {
+    top: 2%;
+}
   .img_comma {
     transform: translate(35% , -11%);
 }
@@ -528,13 +540,13 @@ p {
         padding-top: 90px;
     }
 
-  .img_milad {
-    width: 564px;
-    position: absolute;
-    top: -11%;
-    height: 930px;
-    right: 0;
-}
+    .img_milad {
+      width: 564px;
+      position: absolute;
+      top: -7%;
+      height: 965px;
+      right: 0;
+  }
   .img_cherry {
     width: 41.5%;
     height: 938px;
@@ -570,7 +582,7 @@ p {
       width: 641px;
       position: absolute;
       top: -14.8%;
-      height: 1000px;
+      height: 1009px;
       right: 0;
   }
     :root{
@@ -588,12 +600,13 @@ p {
 }
 @media (min-width:1368px) {
   .img_milad {
-    height: 1005px;
+    height: 1012px;
+    top: -14.1%;
 }
 }
 @media (min-width:1440px) {
   .img_milad {
-    top: -14%;
+    top: -13%;
     height: 1012px;
 }
 .img_cherry {

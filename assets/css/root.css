@@ -314,7 +314,7 @@ p {
   position: absolute;
   bottom: 0;
   right: 0;
-  max-width: 630px;
+  max-width: 570px;
   width: 100%;
 }
 
@@ -531,7 +531,7 @@ p {
 }
 @media (min-width: 1440px) {
   .characters_img {
-    max-width: 630px;
+    max-width: 620px;
     width: 100%;
   }
   .logo_w_180 {
@@ -543,8 +543,5 @@ p {
   .min_h_100 {
     min-height: 100vh;
   }
-  .characters_img {
-    max-width: 732px;
-    width: 100%;
-  }
+ 
 }
