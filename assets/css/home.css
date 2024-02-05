@@ -164,7 +164,7 @@
 /**************** Section Construction **********************/ 
 .img_construction{
     width: 100%;
-   transform: translateY(5%);
+   transform: translateY(5%) !important;
 }
 
 /**************** Slider **********************/ 
