@@ -1,129 +1,102 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
-*{
+* {
   padding: 0;
   margin: 0;
   list-style: none !important;
-  box-sizing: border-box;
-  text-decoration: none;
+  box-sizing: border-box !important;
+  text-decoration: none !important;
 }
-.custom_container{
-  max-width: 1440px !important;
-  padding-left: 12px !important;
-  padding-right: 12px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
+.container {
+  max-width: 1440px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.font_roboto{
+.font_roboto {
   font-family: "Roboto";
 }
 
 @font-face {
-    font-family: "Greycliff_CF";
-    src: url("../fonts/Greycliff_CF/Greycliffcf-heavy.otf");
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "Greycliff_CF";
-    src: url("../fonts/Greycliff_CF/Greycliffcf-extrabold.otf");
-    font-weight: 800;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "Greycliff_CF";
-    src: url("../fonts/Greycliff_CF/Greycliffcf-Bold.otf");
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "Greycliff_CF";
-    src: url("../fonts/Greycliff_CF/Greycliffcf-demibold.otf");
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "Greycliff_CF";
-    src: url("../fonts/Greycliff_CF/GreycliffCF-Medium.otf");
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "Greycliff_CF";
-    src: url("../fonts/Greycliff_CF/Greycliffcf-regular.otf");
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "Greycliff_CF";
-    src: url("../fonts/Greycliff_CF/Greycliffcf-light.otf");
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "Greycliff_CF";
-    src: url("../fonts/Greycliff_CF/Greycliffcf-thin.otf");
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "Greycliff_CF";
-    src: url("../fonts/Greycliff_CF/Greycliffcf-extralight.otf");
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  /**********************Scroll**************************/
+  font-family: "Greycliff_CF";
+  src: url("../fonts/Greycliff_CF/Greycliffcf-heavy.otf");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Greycliff_CF";
+  src: url("../fonts/Greycliff_CF/Greycliffcf-extrabold.otf");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Greycliff_CF";
+  src: url("../fonts/Greycliff_CF/Greycliffcf-Bold.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Greycliff_CF";
+  src: url("../fonts/Greycliff_CF/Greycliffcf-demibold.otf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Greycliff_CF";
+  src: url("../fonts/Greycliff_CF/GreycliffCF-Medium.otf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Greycliff_CF";
+  src: url("../fonts/Greycliff_CF/Greycliffcf-regular.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Greycliff_CF";
+  src: url("../fonts/Greycliff_CF/Greycliffcf-light.otf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Greycliff_CF";
+  src: url("../fonts/Greycliff_CF/Greycliffcf-thin.otf");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Greycliff_CF";
+  src: url("../fonts/Greycliff_CF/Greycliffcf-extralight.otf");
+  font-weight: 100;
+  font-style: normal;
+}
+
+/**********************Scroll**************************/
 ::-webkit-scrollbar {
-    width: 6px;
-  }
-  
-  /* ::-webkit-scrollbar:focus {
+  width: 6px;
+}
+
+/* ::-webkit-scrollbar:focus {
     50px
   } */
-  
-  ::-webkit-scrollbar-track {
-    background: #000;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: #fe6a5b;
-    border-radius: 5px;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background: #fe6a5b;
-  }
-  /********* Font weight  ************/ 
-  .fw_600{
 
-    font-weight: 600;
-  }
-  .fw_700{
-    font-weight: 700;
-  }
-  .fw_800{
-    font-weight: 800;
-  }
-  .fw_900{
-    font-weight: 900;
-  }
-
-  /********* Section Real ************/ 
-.peach-hr {
-  width: 27px;
-  background: #fe6a5b;
-  opacity: 1;
+::-webkit-scrollbar-track {
+  background: #000;
 }
-.grey-hr {
-  width: 70%;
-  opacity: 0.15;
-  background: #000000;
+
+::-webkit-scrollbar-thumb {
+  background: #fe6a5b;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fe6a5b;
 }
