@@ -213,6 +213,13 @@ p {
   height: 2px;
   width: 20px;
 }
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
 
 @media (max-width: 991px) {
   label[for="menuicon"] {
@@ -368,6 +375,9 @@ p {
   border-radius: 8px;
   font-weight: 600;
   transition: all 0.3s ease-in-out;
+}
+.contact_form_btn:hover{
+  box-shadow: 0px 0px 12px #fe6a5b;
 }
 .main_container {
   max-width: 900px !important;
