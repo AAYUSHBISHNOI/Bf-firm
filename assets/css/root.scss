@@ -173,20 +173,6 @@
 
 /**************** Root **********************/ 
 
-:root{
-
-    /* font size */
-    --fs_4xl:144px;
-    --fs_3xl:68px;
-    --fs_2xl:44px;
-    --fs_xl:40px;
-    --fs_md:27px;
-    --fs_lght:18px;
-    --fs_lg:20px;
-    --fs_sm:17px;
-    --fs_xsm:16px;
-    --fs_xxsm:13px;
-}
 .fs_2xl {
   font-size: var(--fs_2xl);
 }
