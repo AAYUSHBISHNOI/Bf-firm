@@ -215,15 +215,12 @@ p {
 .nav_line:hover::after {
   width: 30px !important;
 }
-
 .nav_links_padding {
   padding: 9px 0px;
 }
-
 .logo_w_180 {
   width: 60% !important;
 }
-
 .line {
   background-color: #fff;
   height: 2px;
@@ -405,7 +402,48 @@ p {
   font-weight: 400;
   opacity: 0.5;
 }
+.back_to_top {
+  font-weight: 700;
+  line-height: 100%;
+  color: #fe6a5b;
+  letter-spacing: 0.3em;
+}
 /* -------------------------------sectwo end------------------ */
+/* ----------------------------page_team---------------------- */
+
+.w_100 {
+  width: 100%;
+}
+.mailad_font {
+  font-weight: 400 !important;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+}
+.Partner_para {
+  opacity: 0.7;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+.team_section_para {
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  opacity: 0.7;
+  line-height: 100%;
+  text-align: justify;
+}
+/* ------------------ */
+.Cheryl_font {
+  font-weight: 700 !important;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+}
+.Cheryl_para {
+  opacity: 0.7;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 100%;
+}
+
 @media (min-width: 576px) {
   .scroll_down {
     width: 7%;
@@ -443,6 +481,9 @@ p {
     width: 100%;
     max-width: 426px;
   }
+  .w_100 {
+    width: 80%;
+  }
 }
 @media (min-width: 768px) {
   :root {
@@ -471,6 +512,10 @@ p {
     width: 100%;
     max-width: 550px;
   }
+
+  .w_100 {
+    width: 70%;
+  }
 }
 @media (min-width: 992px) {
   :root {
@@ -491,6 +536,12 @@ p {
   }
   .logo_w_180 {
     width: 100px !important;
+  }
+  .team_page_logo {
+    width: 150px;
+  }
+  .mw_550 {
+    max-width: 550px !important;
   }
 }
 @media (min-width: 1024px) {
@@ -527,6 +578,9 @@ p {
   }
   .logo_w_180 {
     width: 155px !important;
+  }
+  .team_page_logo {
+    width: 180px;
   }
 }
 @media (min-width: 1440px) {
