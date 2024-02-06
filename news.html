@@ -19,26 +19,25 @@
                       <a href="index.html"><img src="./assets/img/news/svg/logo.svg" class="mt-sm-4 mt-2 ms-md-4 ms-lg-0 header_logo" /></a>
                     </div>
                     <div class=" d-lg-none">
-                      <label for="menuicon">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </label>
-                    <input type="checkbox" id="menuicon" hidden>
-                    <ul class=" sm-screen pt-lg-5">
+                      <ul class=" sm-screen pt-lg-5 mobile_view" id="navbar">
                         <li class="nav_links_padding nav_line "><a href="main.html"
-                                class="fs_xsm  nav_links font_roboto">Home</a></li>
-                        <li class="nav_links_padding nav_line"><a href=""
-                                class="fs_xsm nav_links font_roboto">Practice
+                                class="fs_nav  nav_links font_roboto" >Home</a></li>
+                        <li class="nav_links_padding nav_line"><a href="#real"
+                                class="fs_nav nav_links font_roboto" >Practice
                                 Areas</a></li>
                         <li class="nav_links_padding nav_line"><a href="news.html"
-                                class="fs_xsm nav_links font_roboto">News</a></li>
-                        <li class="nav_links_padding nav_line"><a href=""
-                                class="fs_xsm nav_links font_roboto">Team</a></li>
-                        <li class="nav_links_padding nav_line"><a href=""
-                                class="fs_xsm nav_links font_roboto">Contact</a>
+                                class="fs_nav nav_links font_roboto" >News</a></li>
+                        <li class="nav_links_padding nav_line"><a href="team.html"
+                                class="fs_nav nav_links font_roboto" >Team</a></li>
+                        <li class="nav_links_padding nav_line"><a href="#anything"
+                                class="fs_nav nav_links font_roboto" >Contact</a>
                         </li>
                     </ul>
+                    <div onclick="openNav()" class="menu d-block d-xl-none z_7 pe-2">
+                      <span></span>
+                      <span class="my-2"></span>
+                      <span></span>
+                    </div>
                     </div>
                    </div>
                    <div class="data pt-sm-5 subject">
@@ -617,6 +616,13 @@
         backToTopBtn.classList.remove("visible");
       }
     });
+      </script>
+       <script>
+        function openNav() {
+    document.getElementById("navbar").classList.toggle("start-0");
+    document.body.classList.toggle("overflow_hidden");
+    document.querySelector(".menu").classList.toggle("cross")
+  }
       </script>
   </body>
 </html>
