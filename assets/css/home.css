@@ -226,16 +226,16 @@
   width: 70%;
   position: absolute;
   right: 0;
-  top:60.4%;
+  top:49.4%;
 }
 
 
 /**************** Cherry **********************/ 
 .img_cherry{
-  width:72%;
+  width:63%;
   right: 0 !important;
   position: absolute;
-  top: 60%;
+  top: 48%;
   /* transform: translateY(-20%); */
 }
 
@@ -243,18 +243,16 @@
 /**************** Root **********************/ 
 
 :root{
-
-    /* font size */
-    --fs_4xl:118px;
-    --fs_3xl:58px;
-    --fs_2xl:44px;
-    --fs_xl:24px;
-    --fs_md:18px;
-    --fs_lght:16px;
-    --fs_lg:20px;
-    --fs_sm:17px;
-    --fs_xsm:15px;
-    --fs_xxsm:13px;
+  --fs_4xl:60px;
+  --fs_3xl:44px;
+  --fs_2xl:44px;
+  --fs_xl:24px;
+  --fs_md:27px;
+  --fs_lght:21px;
+  --fs_lg:20px;
+  --fs_sm:17px;
+  --fs_xsm:16px;
+  --fs_xxsm:13px;
 }
 .fs_4xl{
     font-size: var(--fs_4xl);
@@ -309,7 +307,7 @@ p {
   opacity: 0.6 !important;
 }
 .height_section{
-  min-height: 1000px;
+  min-height: 703px;
 }
 .margin_col{
   padding-top: 40px;
@@ -326,8 +324,8 @@ p {
       width:30%;
      }
     :root{
-        --fs_4xl:144px;
-        --fs_3xl:78px;
+        --fs_4xl:90px;
+        --fs_3xl:45px;
         --fs_2xl:44px;
         --fs_xl:28px;
         --fs_md:20px;
@@ -342,7 +340,7 @@ p {
     }
     .img_milad{
       width: 37%;
-      top: 54%;
+      top: 46.5%;
     }
     .height_section {
       min-height: 753px;
@@ -367,7 +365,7 @@ p {
 }
   .img_milad {
     width: 33%;
-    top: 50%;
+    top: 47%;
 }
 .height_section {
   min-height: 800px;
@@ -427,15 +425,15 @@ p {
       overflow-y: scroll;
     }
       :root{
-        --fs_4xl:144px;
-        --fs_3xl:38px;
+        --fs_4xl:116px;
+        --fs_3xl:58px;
         --fs_2xl:44px;
         --fs_xl:35px;
         --fs_md:27px;
         --fs_lght:16px;
         --fs_lg:20px;
         --fs_sm:17px;
-        --fs_xsm:16px;
+        --fs_xsm:15px;
         --fs_xxsm:13px;
     }
 }
@@ -462,7 +460,7 @@ p {
   .img_milad {
     width: 45%;
     position: absolute;
-    top: 18.5%;
+    top: 15.3%;
     right: 0;
 }
 .height_section {
@@ -489,7 +487,7 @@ p {
         padding-top: 40px;
     }
       :root{
-        --fs_4xl:144px;
+        --fs_4xl:118px;
         --fs_3xl:76px;
         --fs_2xl:44px;
         --fs_xl:33px;
@@ -497,7 +495,7 @@ p {
         --fs_lght:21px;
         --fs_lg:20px;
         --fs_sm:17px;
-        --fs_xsm:16px;
+        --fs_xsm:15px;
         --fs_xxsm:13px;
     }
 }
@@ -511,7 +509,7 @@ p {
     .img_milad {
       object-fit: cover;
       height: 730px;
-      top: 16%;
+      top: 13%;
   }
   .img_cherry {
     top: 2%;
@@ -520,7 +518,7 @@ p {
     transform: translate(35% , -11%);
 }
     :root{
-        --fs_4xl:144px;
+        --fs_4xl:124px;
         --fs_3xl:68px;
         --fs_2xl:44px;
         --fs_xl:34px;
@@ -541,10 +539,10 @@ p {
     }
 
     .img_milad {
-      width: 564px;
+      width: 559px;
       position: absolute;
       top: -7%;
-      height: 965px;
+      height: 908px;
       right: 0;
   }
   .img_cherry {
@@ -560,7 +558,7 @@ p {
 }
     :root{
       --fs_4xl:144px;
-      --fs_3xl:92px;
+      --fs_3xl:72px;
       --fs_2xl:44px;
       --fs_xl:37px;
       --fs_md:27px;

@@ -1,17 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-:root {
-  /* font size */
-  --fs_4xl: 54px;
-  --fs_3xl: 45px;
-  --fs_2xl: 44px;
-  --fs_xl: 40px;
-  --fs_md: 27px;
-  --fs_lght: 21px;
-  --fs_lg: 20px;
-  --fs_sm: 17px;
-  --fs_xsm: 11px;
-  --fs_xxsm: 13px;
-}
 
 .fs_4xl {
   font-size: var(--fs_4xl);
@@ -410,19 +397,6 @@ p {
   .scroll_down {
     width: 7%;
   }
-  :root {
-    /* font size */
-    --fs_4xl: 80px;
-    --fs_3xl: 55px;
-    --fs_2xl: 44px;
-    --fs_xl: 35px;
-    --fs_md: 27px;
-    --fs_lght: 21px;
-    --fs_lg: 20px;
-    --fs_sm: 17px;
-    --fs_xsm: 13px;
-    --fs_xxsm: 13px;
-  }
   .logo_w_180 {
     width: 70% !important;
   }
@@ -445,19 +419,6 @@ p {
   }
 }
 @media (min-width: 768px) {
-  :root {
-    /* font size */
-    --fs_4xl: 100px;
-    --fs_3xl: 65px;
-    --fs_2xl: 44px;
-    --fs_xl: 40px;
-    --fs_md: 27px;
-    --fs_lght: 21px;
-    --fs_lg: 20px;
-    --fs_sm: 17px;
-    --fs_xsm: 14px;
-    --fs_xxsm: 13px;
-  }
   .logo_w_180 {
     width: 110px !important;
   }
@@ -473,19 +434,6 @@ p {
   }
 }
 @media (min-width: 992px) {
-  :root {
-    /* font size */
-    --fs_4xl: 125px;
-    --fs_3xl: 75px;
-    --fs_2xl: 44px;
-    --fs_xl: 40px;
-    --fs_md: 27px;
-    --fs_lght: 21px;
-    --fs_lg: 20px;
-    --fs_sm: 17px;
-    --fs_xsm: 14px;
-    --fs_xxsm: 13px;
-  }
   .scroll_down {
     width: 10%;
   }
@@ -494,37 +442,11 @@ p {
   }
 }
 @media (min-width: 1024px) {
-  :root {
-    /* font size */
-    --fs_4xl: 144px;
-    --fs_3xl: 85px;
-    --fs_2xl: 44px;
-    --fs_xl: 40px;
-    --fs_md: 27px;
-    --fs_lght: 21px;
-    --fs_lg: 20px;
-    --fs_sm: 17px;
-    --fs_xsm: 16px;
-    --fs_xxsm: 13px;
-  }
   .logo_w_180 {
     width: 130px !important;
   }
 }
 @media (min-width: 1200px) {
-  :root {
-    /* font size */
-    --fs_4xl: 144px;
-    --fs_3xl: 96px;
-    --fs_2xl: 44px;
-    --fs_xl: 40px;
-    --fs_md: 27px;
-    --fs_lght: 21px;
-    --fs_lg: 20px;
-    --fs_sm: 17px;
-    --fs_xsm: 16px;
-    --fs_xxsm: 13px;
-  }
   .logo_w_180 {
     width: 155px !important;
   }
