@@ -312,6 +312,34 @@ p {
 .margin_col{
   padding-top: 40px;
 }
+#backToTopBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 8px 8px 8px 8px;
+  background-color: #fe6a5b;
+  border: none !important;
+  outline: none !important;
+  border-radius:100%;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 500ms, linear transform 0.3s;
+  transform: translateY(100%);
+}
+
+#backToTopBtn.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.footer_margin{
+  margin-top: -2%;
+}
+.section_real_margin_top{
+  margin-bottom: -2%;
+}
 @media (min-width:576px) {
       .img_wdth_section_real{
         width: 70%;
@@ -607,6 +635,11 @@ p {
     top: -13%;
     height: 1012px;
 }
+.img_cherry {
+  width: 40%;
+}
+}
+@media (min-width:1540px) {
 .img_cherry {
   width: 32%;
 }
