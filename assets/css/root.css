@@ -158,7 +158,9 @@ p {
   font-weight: 100;
   font-style: normal;
 }
-
+.fs_16{
+  font-size: 14px !important;
+}
 /**********************Scroll**************************/
 ::-webkit-scrollbar {
   width: 6px;
@@ -242,8 +244,8 @@ input[type=number]::-webkit-outer-spin-button {
 @media (max-width: 991px) {
   .mobile_view {
     position: absolute;
-    background-color: transparent;
-    backdrop-filter: blur(50px);
+    background-color: #fe6a5b;
+    /* backdrop-filter: blur(50px); */
     height: 100vh;
     width: 100%;
     top: 0;
@@ -315,7 +317,7 @@ input[type=number]::-webkit-outer-spin-button {
 .adovcate_text {
   font-weight: 800;
   letter-spacing: -0.05em;
-  line-height: 112% !important;
+  line-height: 112%;
 }
 
 .text_orange {
@@ -342,7 +344,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .characts_img {
   width: 100%;
-  max-width: 430px;
+  max-width: 330px;
 }
 
 .characters_img {
@@ -465,7 +467,6 @@ input[type=number]::-webkit-outer-spin-button {
 .back_to_top {
   font-weight: 700;
   line-height: 100%;
-  color: #fe6a5b;
   letter-spacing: 0.3em;
 }
 
@@ -509,6 +510,14 @@ input[type=number]::-webkit-outer-spin-button {
   letter-spacing: -0.03em;
   line-height: 100%;
 }
+.back {
+  width: 29px;
+  height: 6px;
+}
+.team_page_logo {
+  width: 65px;
+}
+
 
 @media (min-width: 576px) {
   .gap_178 {
@@ -548,6 +557,9 @@ input[type=number]::-webkit-outer-spin-button {
   .w_100 {
     width: 80%;
   }
+  .team_page_logo {
+    width: 65px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -571,6 +583,19 @@ input[type=number]::-webkit-outer-spin-button {
   .w_100 {
     width: 70%;
   }
+  .adovcate_text {
+    line-height: 100% ;
+  }
+  .team_page_logo {
+    width: 75px;
+  }
+  .fs_16{
+    font-size: 16px !important;
+  }
+  .back {
+    width: 52px;
+    height: 19px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -583,11 +608,14 @@ input[type=number]::-webkit-outer-spin-button {
   }
 
   .team_page_logo {
-    width: 150px;
+    width: 90px;
   }
 
   .mw_550 {
     max-width: 550px !important;
+  }
+  .adovcate_text {
+    line-height: 78% ;
   }
 }
 
@@ -603,7 +631,7 @@ input[type=number]::-webkit-outer-spin-button {
   }
 
   .logo_w_180 {
-    width: 155px !important;
+    width: 180px !important;
   }
 
   .team_page_logo {
@@ -624,15 +652,25 @@ input[type=number]::-webkit-outer-spin-button {
   .logo_w_180 {
     width: 180px !important;
   }
+  .team_page_logo {
+    width: 180px;
+  }
 }
 
 @media (min-width: 1480px) {
   .min_h_100 {
     min-height: 100vh;
   }
-
-  .adovcate_text {
-    line-height: 78% !important;
+  .headers_bg {
+    width: 100%;
+    max-width: 525px;
   }
+  .characters_img {
+    max-width: 700px;
+    width: 100%;
+  }
+ 
 
+
+ 
 }
