@@ -102,54 +102,63 @@ p {
   font-weight: 900;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Greycliff_CF";
   src: url("../fonts/Greycliff_CF/Greycliffcf-extrabold.otf");
   font-weight: 800;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Greycliff_CF";
   src: url("../fonts/Greycliff_CF/Greycliffcf-Bold.otf");
   font-weight: 700;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Greycliff_CF";
   src: url("../fonts/Greycliff_CF/Greycliffcf-demibold.otf");
   font-weight: 600;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Greycliff_CF";
   src: url("../fonts/Greycliff_CF/GreycliffCF-Medium.otf");
   font-weight: 500;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Greycliff_CF";
   src: url("../fonts/Greycliff_CF/Greycliffcf-regular.otf");
   font-weight: 400;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Greycliff_CF";
   src: url("../fonts/Greycliff_CF/Greycliffcf-light.otf");
   font-weight: 300;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Greycliff_CF";
   src: url("../fonts/Greycliff_CF/Greycliffcf-thin.otf");
   font-weight: 200;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Greycliff_CF";
   src: url("../fonts/Greycliff_CF/Greycliffcf-extralight.otf");
   font-weight: 100;
   font-style: normal;
 }
+
 /**********************Scroll**************************/
 ::-webkit-scrollbar {
   width: 6px;
@@ -183,6 +192,7 @@ p {
 .nav_links:hover {
   opacity: 1;
 }
+
 .nav_line {
   position: relative !important;
   transition: all 350ms linear !important;
@@ -202,25 +212,30 @@ p {
 .nav_line:hover::after {
   width: 30px !important;
 }
+
 .nav_links_padding {
   padding: 9px 0px;
 }
+
 .logo_w_180 {
   width: 48px !important;
 }
+
 .line {
   background-color: #fff;
   height: 2px;
   width: 20px;
 }
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    margin: 0; 
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
 }
-.w_100{
+
+.w_100 {
   width: 97.5% !important;
 }
 
@@ -239,55 +254,58 @@ input[type=number]::-webkit-outer-spin-button {
     justify-content: center;
     transition: 300ms linear;
     z-index: 5;
-}
-.z_7{
-  z-index: 7  ;
-}
+  }
 
-.overflow_hidden {
+  .z_7 {
+    z-index: 7;
+  }
+
+  .overflow_hidden {
     overflow: hidden;
-}
+  }
+
   .menu span:nth-child(1) {
     height: 4px;
     width: 35px;
     background-color: white;
     display: block;
-}
+  }
 
-.menu span:nth-child(2) {
+  .menu span:nth-child(2) {
     height: 4px;
     width: 35px;
     background-color: white;
     display: block;
-}
+  }
 
-.menu span:nth-child(3) {
+  .menu span:nth-child(3) {
     height: 4px;
     width: 35px;
     background-color: white;
     display: block;
-}
+  }
 
-.menu span {
+  .menu span {
     transition: 300ms linear;
-}
+  }
 
-.cross span:nth-child(1) {
+  .cross span:nth-child(1) {
     transform: rotate(47deg) translateY(16px);
     transition: 300ms linear;
-}
+  }
 
-.cross span:nth-child(2) {
+  .cross span:nth-child(2) {
     transform: translateX(-100%);
     opacity: 0;
     transition: 30ms linear;
-}
+  }
 
-.cross span:nth-child(3) {
+  .cross span:nth-child(3) {
     transform: rotate(-42deg) translateY(-17px);
     transition: 300ms linear;
+  }
 }
-}
+
 .real_estate {
   font-weight: 700;
   letter-spacing: 0.3em !important;
@@ -315,11 +333,13 @@ input[type=number]::-webkit-outer-spin-button {
   width: 100%;
   max-width: 260px;
 }
+
 .headers_bg {
   position: absolute;
   top: 0;
   right: 0;
 }
+
 .characts_img {
   width: 100%;
   max-width: 430px;
@@ -339,9 +359,11 @@ input[type=number]::-webkit-outer-spin-button {
   border-bottom: none;
   border-right: none;
 }
+
 .scroll_down {
   width: 10%;
 }
+
 /* -------------------------------sectwo------------------ */
 .advise {
   font-weight: 700;
@@ -352,32 +374,40 @@ input[type=number]::-webkit-outer-spin-button {
 .color_peach {
   color: #fe6a5b;
 }
+
 .Anything {
   font-weight: 700;
   line-height: 100%;
 }
+
 .para_clr {
   opacity: 0.7;
   font-weight: 600;
   line-height: 100%;
 }
+
 .fw_600 {
   font-weight: 400;
   line-height: 100%;
 }
+
 .chng_clr_hover {
   transition: all 350ms linear;
 }
+
 .chng_clr_hover:hover {
   color: #e84a5f !important;
 }
+
 .fw_400 {
   font-weight: 400;
   line-height: 160%;
 }
+
 .margin_negative {
   margin-top: -6vh !important;
 }
+
 .form_contact {
   display: block;
   width: 100% !important;
@@ -388,6 +418,7 @@ input[type=number]::-webkit-outer-spin-button {
   color: #fff !important;
   outline: none;
 }
+
 .contact_form_btn {
   height: 48px;
   width: 100%;
@@ -398,53 +429,65 @@ input[type=number]::-webkit-outer-spin-button {
   font-weight: 600;
   transition: all 0.3s ease-in-out;
 }
-.contact_form_btn:hover{
+
+.contact_form_btn:hover {
   box-shadow: 0px 0px 12px #fe6a5b;
 }
+
 .main_container {
   max-width: 900px !important;
 }
+
 .footer_logo_width {
   width: 115px;
 }
+
 .footer_line {
   width: 100%;
   height: 1px;
   opacity: 0.15;
   background-color: #fff;
 }
+
 .fw_500 {
   font-weight: 500;
 }
+
 .gap_178 {
   gap: 190px;
 }
+
 .font_400 {
   font-weight: 400;
   opacity: 0.5;
 }
+
 .back_to_top {
   font-weight: 700;
   line-height: 100%;
   color: #fe6a5b;
   letter-spacing: 0.3em;
 }
+
 /* -------------------------------sectwo end------------------ */
 /* ----------------------------page_team---------------------- */
 
 .w_100 {
   width: 100%;
 }
+
 .mailad_font {
   font-weight: 400 !important;
   line-height: 100%;
   letter-spacing: -0.03em;
 }
+
 .Partner_para {
   opacity: 0.7;
   font-weight: 400;
   letter-spacing: -0.03em;
 }
+
 .team_section_para {
   font-weight: 500;
   letter-spacing: 0.01em;
@@ -452,12 +495,14 @@ input[type=number]::-webkit-outer-spin-button {
   line-height: 100%;
   text-align: justify;
 }
+
 /* ------------------ */
 .Cheryl_font {
   font-weight: 700 !important;
   line-height: 100%;
   letter-spacing: -0.03em;
 }
+
 .Cheryl_para {
   opacity: 0.7;
   font-weight: 700;
@@ -469,43 +514,55 @@ input[type=number]::-webkit-outer-spin-button {
   .gap_178 {
     gap: 70px;
   }
+
   .scroll_down {
     width: 7%;
   }
+
   .logo_w_180 {
     width: 70% !important;
   }
+
   .mt_30 {
     margin-top: 17px;
   }
+
   .header_bg {
     max-width: 300px;
   }
+
   .min_h_100 {
     min-height: 890px;
   }
+
   .form_contact {
     max-width: 426px;
     width: 100%;
   }
+
   .contact_form_btn {
     width: 100%;
     max-width: 426px;
   }
+
   .w_100 {
     width: 80%;
   }
 }
+
 @media (min-width: 768px) {
   .logo_w_180 {
     width: 110px !important;
   }
+
   .scroll_down {
     width: 5%;
   }
+
   .header_bg {
     max-width: 400px;
   }
+
   .characts_img {
     width: 100%;
     max-width: 550px;
@@ -515,44 +572,55 @@ input[type=number]::-webkit-outer-spin-button {
     width: 70%;
   }
 }
+
 @media (min-width: 992px) {
   .scroll_down {
     width: 10%;
   }
+
   .logo_w_180 {
     width: 100px !important;
   }
+
   .team_page_logo {
     width: 150px;
   }
+
   .mw_550 {
     max-width: 550px !important;
   }
 }
+
 @media (min-width: 1024px) {
   .logo_w_180 {
     width: 130px !important;
   }
 }
+
 @media (min-width: 1200px) {
   .gap_178 {
     gap: 280px;
   }
+
   .logo_w_180 {
     width: 155px !important;
   }
+
   .team_page_logo {
     width: 180px;
   }
+
   .footer_logo_width {
     width: 180px;
   }
 }
+
 @media (min-width: 1440px) {
   .characters_img {
     max-width: 620px;
     width: 100%;
   }
+
   .logo_w_180 {
     width: 180px !important;
   }
@@ -562,8 +630,9 @@ input[type=number]::-webkit-outer-spin-button {
   .min_h_100 {
     min-height: 100vh;
   }
+
   .adovcate_text {
     line-height: 78% !important;
   }
- 
+
 }
