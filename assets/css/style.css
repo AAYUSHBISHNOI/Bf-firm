@@ -24,54 +24,63 @@
   font-weight: 900;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Greycliff_CF";
   src: url("../fonts/Greycliff_CF/Greycliffcf-extrabold.otf");
   font-weight: 800;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Greycliff_CF";
   src: url("../fonts/Greycliff_CF/Greycliffcf-Bold.otf");
   font-weight: 700;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Greycliff_CF";
   src: url("../fonts/Greycliff_CF/Greycliffcf-demibold.otf");
   font-weight: 600;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Greycliff_CF";
   src: url("../fonts/Greycliff_CF/GreycliffCF-Medium.otf");
   font-weight: 500;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Greycliff_CF";
   src: url("../fonts/Greycliff_CF/Greycliffcf-regular.otf");
   font-weight: 400;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Greycliff_CF";
   src: url("../fonts/Greycliff_CF/Greycliffcf-light.otf");
   font-weight: 300;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Greycliff_CF";
   src: url("../fonts/Greycliff_CF/Greycliffcf-thin.otf");
   font-weight: 200;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Greycliff_CF";
   src: url("../fonts/Greycliff_CF/Greycliffcf-extralight.otf");
   font-weight: 100;
   font-style: normal;
 }
+
 /**********************Scroll**************************/
 ::-webkit-scrollbar {
   width: 6px;
@@ -91,4 +100,10 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: #fe6a5b;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
+
+.slide .slick-slide .slick-cloned {
+  width: 100% !important;
+}
