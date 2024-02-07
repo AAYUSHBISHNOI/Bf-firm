@@ -13,6 +13,15 @@
     margin-left: auto !important;
     margin-right: auto !important;
   }
+  .my_container{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .z_7{
+    position: relative;
+    z-index: 70;
+  }
   @font-face {
     font-family: "Greycliff_CF";
     src: url("../fonts/Greycliff_CF/Greycliffcf-heavy.otf");
@@ -106,6 +115,10 @@
   .fw_400{
     font-weight: 400;
   }
+  .font_400{
+    font-weight: 500 !important;
+    opacity: 0.7 !important;
+  }
   .font_600{
     font-weight: 600;
   }
@@ -163,7 +176,7 @@
     background-color: white;
 }
 .img_bussiness{
-  transform: translateX(4%);
+  transform: translateX(3%);
     width: 375px;
     height: 611px;  
 }
@@ -229,15 +242,15 @@
 box-shadow:  0px 0px 15px #d85a4d;
 }
 .margin_icon{
-  margin-top: 20px;
-  margin-bottom: 658px;
+  margin-top: 3rem;
+  margin-bottom: 625px;
 }
 .img_milad{
   width: 375px;
   height: 592px;
   position: absolute;
   right: 0;
-  top:49.1%;
+  top:48.6%;
 }
 
 
@@ -247,7 +260,7 @@ box-shadow:  0px 0px 15px #d85a4d;
   height: 589px;
   right: 0;
   position: absolute;
-  top: 45%;
+  top: 46.3%;
   /* transform: translateY(-20%); */
 }
 
@@ -255,11 +268,11 @@ box-shadow:  0px 0px 15px #d85a4d;
 /**************** Root **********************/ 
 
 :root{
-  --fs_4xl:60px;
+  --fs_4xl:53px;
   --fs_3xl:51px;
   --fs_2xl:44px;
   --fs_xl:32px;
-  --fs_md:27px;
+  --fs_md:20px;
   --fs_lght:21px;
   --fs_lg:20px;
   --fs_sm:17px;
@@ -310,6 +323,9 @@ p {
 .section_margin_top{
   margin-top: -2px !important;
 }
+.section_margin_bottom{
+  padding-bottom: -2%;
+}
 .bttn_slide{
   display: flex;
   align-items: end !important;
@@ -321,7 +337,7 @@ p {
   opacity: 0.6 !important;
 }
 .height_section{
-  min-height: 1070px;
+  min-height: 1100px;
 }
 .margin_col{
   padding-top: 40px;
@@ -340,8 +356,8 @@ p {
   transition: all 0.3s ease-in-out;
 }
 .header_logo {
-  width: 120px;
-  height: 120px;
+  width: 48px;
+  height: 48px;
 }
 .my_slider_card{
   width: 350px;
@@ -364,7 +380,7 @@ p {
   transition: all 300ms linear;
   padding: 10px;
   position: relative;
-  z-index: 100 !important;
+  z-index: 3 !important;
   /* overflow-y: hidden; */
 }
 .my_card:hover{
@@ -374,13 +390,14 @@ p {
   position: absolute;
 }
 .news-img{
-  display: none;
+  width: 90%;
   position: absolute;
   border-radius: 0px 0px 48px 0px;
-  transform: rotate(-5deg);
+  transform: rotate(-13deg);
   top: -100px;
   bottom: auto;
-  left: -50px;
+  display: none;
+  left: -30px;
   z-index: -10;
   transition: all 300ms linear;
 }
@@ -392,7 +409,7 @@ p {
   padding-bottom: 40px;
 }
 .row_border{
-  border-radius:0px 0px 131px 0px!important;
+  border-radius:0px 0px 50px 0px!important;
 }
 .my_card:hover .text_black{
   color: white;
@@ -438,6 +455,54 @@ p {
 .my_icon:hover rect{
   fill: #6c6969;
 }
+.text_footer{
+  color: white;
+  transition: all 300ms linear;
+}
+.text_footer:hover{
+  color: #e84a5f;
+}
+.col_margin_left{
+  margin-right: -2px;
+}
+.news_card_content {
+  height: 200px;
+  overflow-y: scroll;
+}
+.my_icon_footer{
+  transition: all 300ms linear;
+}
+.my_icon_footer:hover{
+  transform: scale(1.2);
+}
+.cursor_pointer{
+  cursor: pointer;
+}
+.icon_scrool{
+  transition: all 300ms linear;
+  width: 10%;
+}
+.icon_scrool:hover{
+  transform: scale(1.1);
+}
+.icon_back{
+  width: 29px;
+  height: 6px;
+  transition: all 300ms linear;
+}
+.main_hover:hover svg path{
+  fill:  #4f4f4f;;
+}
+.main_hover:hover h5{
+  color:  #4f4f4f;;
+}
+.main_hover:hover p{
+  color:  #4f4f4f;;
+}
+.back_to_home{
+  color: #fe6a5b;
+  transition: all 300ms linear;
+}
 @media (min-width:576px) {
   .my_slider_card{
     padding: 10px 35px 45px 0px;
@@ -447,7 +512,7 @@ p {
         height: 584px;
     }
     .img_bussiness{
-      transform: translateX(4.2%);
+      transform: translateX(4%);
         width: 320px;
         height: 521px;
     }
@@ -473,7 +538,7 @@ p {
     .img_milad{
       width: 350px;
       height: 552px;
-      top: 39%;
+      top: 40.8%;
     }
     .height_section {
       min-height: 820px;
@@ -481,11 +546,14 @@ p {
     .img_cherry {
       width: 350px;
       height: 549px;
-      top: 33%;
+      top: 32.8%;
   }
   .img_construction {
     width: 384px;
     height: 529px;
+}
+.icon_scrool{
+  width: 7%;
 }
 }
 @media (min-width:768px) {
@@ -514,10 +582,10 @@ p {
 .img_bussiness {
   transform: translateX(3.8%);
 }
-  .img_milad {
-    width: 350px;
-    height: 352px;
-    top: 53%;
+.img_milad {
+  width: 350px;
+  height: 435px;
+  top: 44.4%;
 }
 .height_section {
   min-height: 800px;
@@ -561,6 +629,9 @@ p {
     .news-slider .content {
       width: 382px;
     }
+    .icon_scrool{
+      width: 5%;
+    }
     .grey-hr {
         width: 70%;
         opacity: 0.15;
@@ -593,6 +664,13 @@ p {
     }
 }
 @media (min-width:992px) {
+  .icon_scrool{
+    width:10%;
+  }
+  .header_logo {
+    width: 150px;
+    height: 150px;
+}
   .fs_nav{
     font-size: 16px;
   } 
@@ -602,7 +680,7 @@ p {
 }
   .img_header {
     width: 100%;
-    transform: translate(3% ,0%);
+    transform: translate(0% ,0%);
 }
   .row_border{
     border-radius:0px 0px 231px 0px!important;
@@ -611,12 +689,12 @@ p {
     padding-top: 150px;
 }
   .margin_col{
-    padding-top: 150px;
+    padding-top: 120px;
   }
   .img_bussiness {
     width: 413px;
     height: 674px;
-    transform: translateX(3%);
+    transform: translateX(2%);
 }
   .col_border_top {
     border-top-left-radius: 110px;
@@ -631,7 +709,7 @@ p {
   .img_milad {
     width: 600px;
     height: 900px;
-    top: -8.6%;
+    top: -8.4%;
 }
 .height_section {
   min-height: 970px;
@@ -683,6 +761,17 @@ p {
     }
 }
 @media (min-width:1024px) {
+  .news-img{
+    position: absolute;
+    border-radius: 0px 0px 48px 0px;
+    transform: rotate(-13deg);
+    top: -200px;
+    bottom: auto;
+    display: none;
+    left: -50px;
+    z-index: -10;
+    transition: all 300ms linear;
+  }
   .img_wdth_section_real {
     width: 512px;
     height: 734px;
@@ -734,6 +823,25 @@ p {
     }
 }
 @media (min-width:1200px) {
+  .icon_back{
+    width: 51px;
+    height: 12px;
+  }
+  .header_logo {
+    width: 180px;
+    height: 180px;
+}
+.img_header {
+  width: 100%;
+  transform: translate(2.1% ,0%);
+}
+  .my_container{
+    max-width: 1440px;
+    margin-left: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: auto;
+  }
   .news-slider .content {
     width: 326px;
   }
@@ -752,7 +860,7 @@ p {
 .img_milad {
   width: 620px;
   position: absolute;
-  top: -17%;
+  top: -16.6%;
   height: 990px;
   right: 0;
 }
