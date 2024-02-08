@@ -712,21 +712,28 @@ input{
     width: 180px;
   }
 }
-
 @media (min-width: 1480px) {
   .min_h_100 {
     min-height: 100vh;
   }
-  .headers_bg {
-    width: 100%;
-    max-width: 525px;
-  }
+}
+@media (min-width:1530px) {
   .characters_img {
-    max-width: 700px;
-    width: 100%;
-  }
- 
-
-
- 
+    max-width: 629px !important;
+    width: 100% !important;
+}
+.headers_bg {
+  width: 100%;
+  max-width: 548px;
+}
+}
+@media (min-width:1600px) {
+  .characters_img {
+    max-width: 730px !important;
+    width: 100% !important;
+}
+.headers_bg {
+  width: 100%;
+  max-width: 548px;
+}
 }
