@@ -398,7 +398,11 @@ input[type=number]::-webkit-outer-spin-button {
 }
 input{
   font-weight: 700 !important;
-
+}
+textarea{
+  height: 98px;
+  font-weight: 700 !important;
+  resize: none !important;
 }
 .form_contact {
   display: block;
@@ -411,6 +415,7 @@ input{
   outline: none;
 }
 .contact_form_btn {
+  margin-top: 24px;
   height: 48px;
   width: 100%;
   border: 1px solid #fe6a5b;
@@ -419,6 +424,8 @@ input{
   border-radius: 8px;
   font-weight: 600;
   transition: all 0.3s ease-in-out;
+  color: white !important;
+  font-size: 16px;
 }
 .contact_form_btn:hover{
   box-shadow: 0px 0px 12px #fe6a5b;
@@ -502,8 +509,6 @@ input{
 .icon_scrool {
   width: 12.4%;
 }
-
-
 @media (min-width: 576px) {
   .adovcate_text {
     line-height: 110% ;
@@ -757,4 +762,12 @@ input{
   width: 100%;
   max-width: 548px;
 }
+}
+@media (min-width:1930px) {
+  .min_h_100{
+    min-height: 890px;
+  }
+  .max_width{
+    max-width: 1920px;
+  }
 }
