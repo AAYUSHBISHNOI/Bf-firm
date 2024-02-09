@@ -691,7 +691,9 @@ textarea{
 }
 }
 @media (min-width: 1200px) {
-
+  .Anything {
+    max-width: 305px;
+}
   .footer_img {
     max-width: 309px;
     height: 458px;
@@ -729,6 +731,9 @@ textarea{
 }
 }
 @media (min-width: 1440px) {
+  .Anything {
+    max-width: 340px;
+}
   .characters_img {
     max-width: 630px;
     width: 100%;
