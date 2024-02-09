@@ -14,7 +14,7 @@
 
 <body>
     <!-- ------------------team page secone start---------------------------- -->
-    <section class=" bg-black overflow-hidden">
+    <section id="banner-top" class=" bg-black overflow-hidden">
         <div class=" custom_container pb-xl-2">
             <div class="row justify-content-between align-items-center  align-items-xl-start">
                 <div class="col-xl-2">
@@ -472,8 +472,7 @@
                   <div class="footer_line my-3 mt-5"></div>
                   <div class="d-sm-flex flex-md-column flex-lg-row align-items-center mt-2 gap_178">
                       <ul class="d-sm-flex align-items-center gap-5 gap-xxl-5 px-3 px-md-0">
-                        <li class="mt-2"><a class="text_footer font_roboto fw_500" href="#banner-top">Back to Top</a></li>
-                          <li class="mt-2"> <a href="#real"
+                        <li class="mt-2"><a class="text_footer font_roboto fw_500" href="#banner-top">Back to Top</a></li>                       <li class="mt-2"> <a href="#real"
                                   class="text_footer  font_roboto fw_500">Practice
                                   Areas</a></li>
                           <li class="mt-2">
@@ -532,25 +531,17 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
         <script>
-            // Get a reference to the back to top button
           var backToTopBtn = document.getElementById("backToTopBtn");
-          
-          // Add a click event listener to scroll to the top when the button is clicked
           backToTopBtn.addEventListener("click", function() {
-            // Scroll to the top of the page smoothly
             window.scrollTo({
               top: 0,
               behavior: "smooth"
             });
           });
-          
-          // Show or hide the back to top button based on the user's scroll position
           window.addEventListener("scroll", function() {
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-              // If the user has scrolled down more than 20px from the top, show the button
               backToTopBtn.classList.add("visible");
             } else {
-              // Otherwise, hide the button
               backToTopBtn.classList.remove("visible");
             }
           });
