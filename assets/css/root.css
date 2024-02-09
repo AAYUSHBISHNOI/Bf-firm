@@ -691,9 +691,7 @@ textarea{
 }
 }
 @media (min-width: 1200px) {
-  .font_16{
-    font-size: 14px;
-  }
+
   .footer_img {
     max-width: 309px;
     height: 458px;
@@ -711,7 +709,7 @@ textarea{
     width: 180px;
   }
   .fs_16 {
-    font-size: 16px !important;
+    font-size: 14px !important;
 }
 .adovcate_text {
   line-height: 78%;
@@ -741,6 +739,9 @@ textarea{
   .team_page_logo {
     width: 180px;
   }
+  .fs_16 {
+    font-size: 16px !important;
+}
 }
 @media (min-width: 1480px) {
   .min_h_100 {
