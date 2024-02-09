@@ -406,7 +406,7 @@ p {
   width: 10%;
 }
 .icon_scrool:hover{
-  transform: scale(1.1);
+  transform: scale(0.9);
 }
 .icon_back{
   width: 29px;
