@@ -357,7 +357,7 @@ p {
 }
 .row_padding {
   padding-top: 80px;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 .row_border{
   border-radius:0px 0px 50px 0px!important;
@@ -649,6 +649,10 @@ p {
     }
 }
 @media (min-width:992px) {
+  .row_padding {
+    padding-top: 150px !important;
+    padding-bottom: 150px;
+  }
   .text_16 {
     font-size: 16px;
 }
