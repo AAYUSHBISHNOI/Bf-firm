@@ -150,6 +150,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 16px 15px 20px 15px;
 }
 .peach_color {
   color: #fe6a5b !important;
@@ -457,8 +458,9 @@ p {
     letter-spacing: 0px;
 }
   .news-slider .content {
-    width: 326px;
+    width: 300px;
     height: 413px;
+    padding: 16px 15px 20px 15px;
   }
 .new_news_card_content {
   background-color: transparent !important;
@@ -503,7 +505,7 @@ p {
     .img_milad{
       width: 350px;
       height: 552px;
-      top: 37.7%;
+      top: 36.7%;
     }
     .height_section {
       min-height: 820px;
@@ -577,7 +579,7 @@ p {
 .img_milad {
   width: 350px;
   height: 552px;
-  top: 40%;
+  top: 42.4%;
 }
 .height_section {
   min-height: 855px;
@@ -637,7 +639,7 @@ p {
     }
       :root{
         --fs_4xl:90px;
-        --fs_3xl:48px;
+        --fs_3xl:47px;
         --fs_2xl:44px;
         --fs_xl:32px;
         --fs_md:20px;
@@ -764,7 +766,7 @@ p {
         --fs_lg:20px;
         --fs_sm:17px;
         --fs_xsm:15px;
-        --fs_xxsm:13px;
+        --fs_xxsm:12px;
     }
 }
 @media (min-width:1024px) {
@@ -958,6 +960,9 @@ p {
   }
 }
 @media (min-width:1320px) {
+  .font_16 {
+    font-size: 16px !important;
+}
   .img_cherry {
     right: 47% !important;
 }
