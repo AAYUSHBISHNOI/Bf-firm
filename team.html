@@ -5,15 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team</title>
+    <!-- css link -->
     <link rel="stylesheet" href="./assets/css/root.css">
     <link rel="stylesheet" href="./assets/css/home.css">
+    <!-- bootstrap link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!-- facicon -->
+        <link rel="icon" href="./assets/img/news/png/imgsix.png">
 
 </head>
 
 <body>
-    <!-- ------------------team page secone start---------------------------- -->
+    <!-- ------------------team page section---------------------------- -->
     <section id="banner-top" class=" bg-black overflow-hidden">
         <div class=" custom_container pb-xl-2">
             <div class="row justify-content-between align-items-center  align-items-xl-start">
@@ -31,8 +35,8 @@
                                     Areas</a></li>
                             <li class="nav_links_padding nav_line"><a href="news.html"
                                     class="fs_nav nav_links font_roboto" >News</a></li>
-                            <li class="nav_links_padding nav_line"><a href="team.html"
-                                    class="fs_nav nav_links font_roboto" >Team</a></li>
+                            <li class="nav_links_padding nav_lineh"><a href="team.html"
+                                    class="fs_nav nav_links font_roboto active" >Team</a></li>
                             <li class="nav_links_padding nav_line"><a href="#anything"
                                     class="fs_nav nav_links font_roboto" >Contact</a>
                             </li>
@@ -225,8 +229,7 @@
             </div>
         </div>
     </section>
-    <!-- -------------------team page secone end -->
-    <!-----------------------team page sectwo start -->
+    <!-----------------------team page sectiontwo -->
     <section class=" overflow-hidden">
         <div class=" custom_container mt-xl-5 mb-xl-4 pt-xl-5 pb-xl-2 pb-xxl-4">
             <div class="row  align-items-center align-items-xl-start">
@@ -392,7 +395,7 @@
             </div>
         </div>
     </section>
-    <!-----------------------team page sectwo end -->
+    <!-----------------------team page sectthree -->
     <section class=" pt-lg-5 pb-lg-5 mx-auto bg-black section_margin_top"  id="anything">
         <div class=" container  main_container mx-auto pb-lg-3">
             <div class=" row pt-5 pb-5 d-flex justify-content-center align-items-center">
@@ -527,39 +530,31 @@
             </div>
         </div>
         </section>
-        <!-- <button id="backToTopBtn"><img src="./assets/img/Homepage/svg/back_to_top.svg" alt="backtotop"></button> -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        <!-- bootstrap-script -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+       <!-- navbar-js -->
         <script>
-          var backToTopBtn = document.getElementById("backToTopBtn");
-          backToTopBtn.addEventListener("click", function() {
-            window.scrollTo({
-              top: 0,
-              behavior: "smooth"
-            });
-          });
-          window.addEventListener("scroll", function() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-              backToTopBtn.classList.add("visible");
-            } else {
-              backToTopBtn.classList.remove("visible");
-            }
-          });
-        </script>
-        <script>
-                function openNav() {
+            function openNav() {
             document.getElementById("navbar").classList.toggle("start-0");
             document.body.classList.toggle("overflow_hidden");
             document.querySelector(".menu").classList.toggle("cross")
-          }
-    </script>
+            }
+          </script>
+          <!-- form-js -->
      <script>
         function submitForm(event) {
             event.preventDefault();
             document.getElementById("myForm").reset();
         }
       </script>
+      <!-- movement-function -->
+      <script>
+        const Movement = () => {
+          setshow(false);
+        };
+        </script>
 </body>
 
 </html>
