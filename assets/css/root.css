@@ -95,61 +95,6 @@ p {
 .font_roboto {
   font-family: "Roboto";
 }
-
-@font-face {
-  font-family: "Greycliff_CF";
-  src: url("../fonts/Greycliff_CF/Greycliffcf-heavy.otf");
-  font-weight: 900;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Greycliff_CF";
-  src: url("../fonts/Greycliff_CF/Greycliffcf-extrabold.otf");
-  font-weight: 800;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Greycliff_CF";
-  src: url("../fonts/Greycliff_CF/Greycliffcf-Bold.otf");
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Greycliff_CF";
-  src: url("../fonts/Greycliff_CF/Greycliffcf-demibold.otf");
-  font-weight: 600;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Greycliff_CF";
-  src: url("../fonts/Greycliff_CF/GreycliffCF-Medium.otf");
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Greycliff_CF";
-  src: url("../fonts/Greycliff_CF/Greycliffcf-regular.otf");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Greycliff_CF";
-  src: url("../fonts/Greycliff_CF/Greycliffcf-light.otf");
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Greycliff_CF";
-  src: url("../fonts/Greycliff_CF/Greycliffcf-thin.otf");
-  font-weight: 200;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Greycliff_CF";
-  src: url("../fonts/Greycliff_CF/Greycliffcf-extralight.otf");
-  font-weight: 100;
-  font-style: normal;
-}
 .fs_16{
   font-size: 14px !important;
 }
@@ -182,6 +127,7 @@ opacity: 1 !important;}
   line-height: 150% !important;
   color: #ffffff;
   opacity: 0.5;
+  transition: all 300ms linear;
 }
 
 .nav_links:hover {
@@ -295,14 +241,14 @@ input[type=number]::-webkit-outer-spin-button {
 
 .cross span:nth-child(2) {
   transform: translate(-33% , -137%) rotate(-47deg);
-  opacity: 1;
+  opacity: 0;
   transition: 30ms linear;
 }
 
 .cross span:nth-child(3) {
-  opacity: 0;
-    transform: rotate(-48deg) translateY(-16px);
-    transition: 300ms linear;
+  opacity: 1;
+  transform: rotate(-49deg) translateY(-11px);
+  transition: 300ms linear;
 }
 }
 .real_estate {
