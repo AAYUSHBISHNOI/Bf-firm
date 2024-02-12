@@ -477,6 +477,9 @@ p {
   width: 48px;
   height: 48px;
 }
+.section_mt_minus{
+  margin-top: -2px;
+}
 @media (min-width:576px) {
   .section_cherry_height {
     min-height: 817px;
