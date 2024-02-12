@@ -185,7 +185,9 @@ input[type=number]::-webkit-outer-spin-button {
 .w_100{
   width: 97.5% !important;
 }
-
+.z_5{
+  z-index: 3;
+}
 @media (max-width: 991px) {
   .mobile_view {
     position: fixed;
@@ -200,12 +202,11 @@ input[type=number]::-webkit-outer-spin-button {
     align-items: center;
     justify-content: center;
     transition: 300ms linear;
-    z-index: 5;
+    z-index: 6;
 }
 .z_7{
-  z-index: 7  ;
+  z-index: 7;
 }
-
 .overflow_hidden {
     overflow: hidden;
 }
