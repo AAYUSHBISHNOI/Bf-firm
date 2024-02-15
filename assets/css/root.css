@@ -48,14 +48,6 @@
   text-decoration: none !important;
 }
 
-.coustam_container {
-  max-width: 1440px !important;
-  padding-left: 12px;
-  padding-right: 12px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .main_heading {
   color: red;
 }
@@ -123,13 +115,13 @@ p {
 .active{
 opacity: 1 !important;}
 .nav_links {
+  font-size: 24px;
   font-weight: 700;
   line-height: 150% !important;
   color: #ffffff;
   opacity: 0.5;
   transition: all 300ms linear;
 }
-
 .nav_links:hover {
   opacity: 1;
 }
@@ -167,7 +159,7 @@ opacity: 1 !important;}
 .nav_links_padding {
   padding: 9px 0px;
 }
-.logo_w_180 {
+.logo-size {
   width: 48px !important;
 }
 .line {
@@ -182,7 +174,7 @@ input[type=number]::-webkit-outer-spin-button {
     appearance: none;
     margin: 0; 
 }
-.w_100{
+.team_img{
   width: 97.5% !important;
 }
 .z_5{
@@ -210,28 +202,28 @@ input[type=number]::-webkit-outer-spin-button {
 .overflow_hidden {
     overflow: hidden;
 }
-  .menu span:nth-child(1) {
+  .menuicon span:nth-child(1) {
     height: 3px;
     width: 24px;
     background-color: white;
     display: block;
 }
 
-.menu span:nth-child(2) {
+.menuicon span:nth-child(2) {
     height: 3px;
     width: 24px;
     background-color: white;
     display: block;
 }
 
-.menu span:nth-child(3) {
+.menuicon span:nth-child(3) {
     height: 3px;
     width: 24px;
     background-color: white;
     display: block;
 }
 
-.menu span {
+.menuicon span {
     transition: 300ms linear;
 }
 
@@ -270,7 +262,7 @@ input[type=number]::-webkit-outer-spin-button {
   font-size: 16px !important;
 }
 
-.mt_30 {
+.text_space {
   margin-top: 1px;
 }
 
@@ -304,7 +296,7 @@ input[type=number]::-webkit-outer-spin-button {
   width: 10%;
 }
 /* -------------------------------sectwo------------------ */
-.advise {
+.advice_text {
   font-weight: 700;
   line-height: 100%;
   letter-spacing: -0.05em;
@@ -313,7 +305,7 @@ input[type=number]::-webkit-outer-spin-button {
 .color_peach {
   color: #fe6a5b;
 }
-.Anything {
+.anything_heading {
   font-weight: 700;
   line-height: 100%;
 }
@@ -326,14 +318,13 @@ input[type=number]::-webkit-outer-spin-button {
   font-weight: 400;
   line-height: 100%;
 }
-.chng_clr_hover {
+.list-text {
   transition: all 350ms linear;
   font-weight: 400 !important;
   font-size: 16px !important;
   line-height: 155% !important;
-  
 }
-.chng_clr_hover:hover {
+.list-text:hover {
   color: #e84a5f !important;
 }
 .fw_400 {
@@ -354,7 +345,7 @@ textarea{
   font-weight: 700 !important;
   resize: none !important;
 }
-.form_contact {
+.form_anything {
   display: block;
   width: 100% !important;
   padding: 10px !important;
@@ -396,7 +387,7 @@ textarea{
   font-weight: 500;
   font-size: 16px !important;
 }
-.gap_178 {
+.li_space {
   gap: 190px;
 }
 .font_400 {
@@ -411,7 +402,7 @@ textarea{
 /* -------------------------------sectwo end------------------ */
 /* ----------------------------page_team---------------------- */
 
-.w_100 {
+.team_img {
   width: 100%;
 }
 .font_16{
@@ -422,7 +413,7 @@ textarea{
   line-height: 100%;
   letter-spacing: -0.03em;
 }
-.Partner_para {
+.partner_para {
   opacity: 0.7;
   font-weight: 400;
   letter-spacing: -0.03em;
@@ -435,12 +426,12 @@ textarea{
   text-align: justify;
 }
 /* ------------------ */
-.Cheryl_font {
+.cheryl_font {
   font-weight: 700 !important;
   line-height: 100%;
   letter-spacing: -0.03em;
 }
-.Cheryl_para {
+.cheryl_para {
   opacity: 0.7;
   font-weight: 700;
   letter-spacing: -0.03em;
@@ -460,23 +451,23 @@ textarea{
   .adovcate_text {
     line-height: 110% ;
   }
-  .gap_178 {
+  .li_space {
     gap: 50px;
   }
   .icon_scrool {
     width: 7.4%;
 }
-  .logo_w_180 {
+  .logo-size {
     width: 70% !important;
   }
-  .mt_30 {
+  .text_space {
     margin-top: 1px;
   }
   .header_bg {
     max-width: 300px;
   }
  
-  .form_contact {
+  .form_anything {
     max-width: 426px;
     width: 100%;
   }
@@ -484,7 +475,7 @@ textarea{
     width: 100%;
     max-width: 426px;
   }
-  .w_100 {
+  .team_img {
     width: 80%;
   }
   .team_page_logo {
@@ -502,10 +493,10 @@ textarea{
 }
 }
 @media (min-width: 768px) {
-  .gap_178 {
+  .li_space {
     gap: 50px;
   }
-  .logo_w_180 {
+  .logo-size {
     width: 81px !important;
   }
   .icon_scrool {
@@ -518,7 +509,7 @@ textarea{
     width: 100%;
     max-width: 550px;
   }
-  .w_100 {
+  .team_img {
     width: 70%;
   }
   .adovcate_text {
@@ -555,15 +546,16 @@ textarea{
     border-bottom: none;
     border-right: none;
   }
- 
-
-  .logo_w_180 {
+  .nav_links {
+    font-size: 16px;
+  }
+  .logo-size {
     width: 100px !important;
   }
   .team_page_logo {
     width: 90px;
   }
-  .mw_550 {
+  .team_para {
     max-width: 550px !important;
   }
   .adovcate_text {
@@ -594,15 +586,15 @@ textarea{
   max-width: 255px;
   height: 425px;
 }
-.gap_178 {
+.li_space {
   gap: 105px;
 }
 }
 @media (min-width: 1024px) {
-  .Anything {
+  .anything_heading {
     max-width: 270px;
   }
-  .logo_w_180 {
+  .logo-size {
     width: 115px !important;
 }
   .footer_img{
@@ -619,7 +611,7 @@ textarea{
 .adovcate_text {
   line-height: 98%;
 }
-.mt_30 {
+.text_space {
   margin-top:3px;
 }
 .headers_bg {
@@ -632,22 +624,22 @@ textarea{
 .icon_scrool {
   width: 13.5%;
 }
-.gap_178 {
+.li_space {
   gap: 140px;
 }
 }
 @media (min-width: 1200px) {
-  .Anything {
+  .anything_heading {
     max-width: 305px;
 }
   .footer_img {
     max-width: 309px;
     height: 458px;
 }
-  .gap_178 {
+  .li_space {
     gap: 195px;
   }
-  .logo_w_180 {
+  .logo-size {
     width: 137px !important;
   }
   .team_page_logo {
@@ -662,7 +654,7 @@ textarea{
 .adovcate_text {
   line-height: 78%;
 }
-.mt_30 {
+.text_space {
   margin-top: 21px;
 }
 .min_h_100 {
@@ -677,14 +669,14 @@ textarea{
 }
 }
 @media (min-width: 1440px) {
-  .Anything {
+  .anything_heading {
     max-width: 340px;
 }
   .characters_img {
     max-width: 630px;
     width: 100%;
   }
-  .logo_w_180 {
+  .logo-size {
     width: 180px !important;
   }
   .team_page_logo {
@@ -723,7 +715,7 @@ textarea{
   .min_h_100{
     min-height: 890px;
   }
-  .max_width{
+  .section-full-width{
     max-width: 1920px;
   }
 }

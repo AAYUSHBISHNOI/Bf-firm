@@ -48,7 +48,7 @@
   }
 
 /*********** Line Height********************/ 
-.line_height_100{
+.lh_100{
     line-height: 100%;
 }
 
@@ -102,7 +102,7 @@
 .font_opacity_07{
     opacity: 0.7;
 }
-.col_border_right_bottom{
+.column-border-rb{
     border-bottom-right-radius: 0px;
 }
 .img_wdth_section_real{
@@ -172,7 +172,7 @@
 .col_milad_border_top{
   border-top-left-radius: 70px;
 }
-.section_milad_margin_left{
+.milad_space{
   margin-left: 12px;
 }
 .button_bio {
@@ -185,7 +185,7 @@
 .button_bio:hover{
 box-shadow:  0px 0px 15px #d85a4d;
 }
-.margin_icon{
+.icon_space{
   margin-top: 3rem;
   margin-bottom: 541px;
 }
@@ -206,7 +206,7 @@ box-shadow:  0px 0px 15px #d85a4d;
   position: absolute;
   top: 52%;
 }
-.letter_cherry_space{
+.ls_cherry{
   letter-spacing: -0.8px;
 }
 
@@ -255,9 +255,6 @@ box-shadow:  0px 0px 15px #d85a4d;
 .fs_xxsm{
     font-size: var(--fs_xxsm);
 }
-.fs_nav{
-  font-size: 24px;
-}
 .text_16{
   font-size: 15px;
 }
@@ -275,9 +272,6 @@ p {
 .section_margin_top{
   margin-top: -2px !important;
 }
-.section_mb_minus{
-  padding-bottom: -2%;
-}
 .bttn_slide{
   display: flex;
   align-items: end !important;
@@ -291,7 +285,7 @@ p {
 .section_cherry_height{
   min-height: 1145px;
 }
-.margin_cherry_sect_col{
+.cherry_space{
   padding-top: 48px;
 }
 
@@ -354,7 +348,7 @@ p {
 .news_card:hover .news_card_img {
   opacity: 1;
   top: -19%;
-  left: -7%;
+  left: -4%;
   transform: rotateZ(-8deg);
 }
 .news_card_scroll{
@@ -374,7 +368,7 @@ p {
   transition: all 300ms linear;
 }
 
-.row_padding {
+.row_space {
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -402,17 +396,17 @@ p {
 .text_footer:hover{
   color: #e84a5f;
 }
-.col_margin_left{
+.real_content_space{
   margin-right: -2px;
 }
 .news_card_content {
   height: 200px;
   overflow-y: scroll;
 }
-.my_icon_footer{
+.icon_footer{
   transition: all 300ms linear;
 }
-.my_icon_footer:hover path{
+.icon_footer:hover path{
   fill: #4f4f4f;
 }
 .cursor_pointer{
@@ -447,10 +441,10 @@ p {
   width: 103px;
   height:80px;
 }
-.litigation_text_mb {
+.litigation_text_space {
   margin-bottom: 0px;
 }
-.padding_top_150 {
+.litigation {
   padding-top: 20px;
 }
 .new_news_card_content::-webkit-scrollbar-track{
@@ -477,7 +471,7 @@ p {
   width: 48px;
   height: 48px;
 }
-.section_mt_minus{
+.remove_white_space{
   margin-top: -2px;
 }
 @media (min-width:576px) {
@@ -538,7 +532,7 @@ p {
         --fs_xsm:16px;
         --fs_xxsm:13px;
     }
-    .margin_icon{
+    .icon_space{
       margin-bottom: 380px;
     }
     .img_milad{
@@ -577,7 +571,7 @@ p {
 .news_heading {
   font-size: 28px;
 }
-  .letter_cherry_space {
+  .ls_cherry {
     letter-spacing: -1.4px;
 }
 .li_width{
@@ -594,23 +588,23 @@ p {
   .news-img{
     width: 90%;
   }
-  .pt_150{
+  .deal_space{
     padding-top: 20px;
   }
   .slide-content{
     width: 346px;
   }
-  .margin_cherry_sect_col {
+  .cherry_space {
     padding-top: 96px;
 }
-  .section_milad_margin_left {
+  .milad_space {
     margin-left: 48px;
 }
   .img_header{
     width: 70%;
     transform: translate(46% ,0%);
   }
-  .row_padding {
+  .row_space {
     padding-top: 100px !important;
     padding-bottom: 100px;
   }
@@ -639,10 +633,10 @@ p {
   position: absolute;
   top: 35.5%;
 }
-.margin_icon {
+.icon_space {
   margin-bottom: 366px;
 }
-  .pb_100{
+  .litigation_space{
     padding-bottom: 40px;
   }
   .hammer_pos_absoulute{
@@ -679,10 +673,10 @@ p {
         opacity: 0.15;
         background-color: white;
     }
-    .litigation_text_mb {
+    .litigation_text_space {
       margin-bottom: 80px;
   }
-    .padding_top_150{
+    .litigation{
         padding-top: 100px;
     }
       :root{
@@ -702,7 +696,7 @@ p {
   .lht_100{
     line-height: 137%;
   }
-  .row_padding {
+  .row_space {
     padding-top: 150px !important;
     padding-bottom: 150px;
   }
@@ -712,14 +706,14 @@ p {
   .text_16 {
     font-size: 16px;
 }
-.slider_bttn{
+.bttn_slide{
   width: 160px;
 }
   .new_news_card_content_first{
     height: 191px;
     overflow-y: scroll;
   }
-  .col_border_right_bottom{
+  .column-border-rb{
     border-bottom-right-radius: 231px;
 }
   .icon_scrool{
@@ -729,9 +723,6 @@ p {
     width: 150px;
     height: 150px;
 }
-  .fs_nav{
-    font-size: 16px;
-  } 
   .img_wdth_section_real {
     max-width: 496px;
     height: 711px;
@@ -746,7 +737,7 @@ p {
   .padding_top_200{
     margin-top: 150px;
 }
-  .margin_cherry_sect_col{
+  .cherry_space{
     padding-top: 120px;
   }
   .img_bussiness {
@@ -757,10 +748,10 @@ p {
   .col_milad_border_top {
     border-top-left-radius: 110px;
 }
-  .section_milad_margin_left{
+  .milad_space{
     margin-left: 60px;
   }
-  .margin_icon{
+  .icon_space{
     margin-top: 40px;
     margin-bottom: 193px;
   }
@@ -783,7 +774,7 @@ p {
         opacity: 0.15;
         background-color: white;
     }
-    .padding_top_150{
+    .litigation{
         padding-top: 60px;
     }
     .img_construction {
@@ -836,7 +827,7 @@ p {
     height: 469px;
     padding: 16px 15px 20px 15px;
 }
-  .pt_150 {
+  .deal_space {
     padding-top: 70px;
 }
   .hammer_img {
@@ -844,7 +835,7 @@ p {
     height: 1041px;
     object-fit: contain;
 }
-  .litigation_text_mb {
+  .litigation_text_space {
     margin-bottom: 300px;
 }
   .padding_top_200 {
@@ -877,7 +868,7 @@ p {
   .col_milad_border_top{
     border-top-left-radius: 150px;
   }
-    .padding_top_150{
+    .litigation{
         padding-top: 110px;
     }
     .img_milad {
@@ -886,7 +877,7 @@ p {
       top: -12%;
       width: 500px;
   }
-  .margin_icon {
+  .icon_space {
     margin-top: 40px;
     margin-bottom: 90px;
 }
@@ -930,7 +921,7 @@ p {
   .padding_top_200 {
     margin-top: 180px !important;
 }
-  .margin_icon{
+  .icon_space{
     margin-top: 40px;
     margin-bottom: 196px;
   }
@@ -950,11 +941,8 @@ p {
   transform: translate(2.1% ,0%);
 }
   .my_container{
-    max-width: 1440px;
-    margin-left: auto;
     padding-left: 12px;
     padding-right: 12px;
-    margin-right: auto;
   }
   .img_wdth_section_real {
     max-width: 600px;
@@ -978,10 +966,10 @@ p {
   .height_section{
     min-height: 742px;
   }
-    .padding_top_150{
+    .litigation{
         padding-top: 90px;
     }
-.section_milad_margin_left {
+.milad_space {
   margin-left: 150px;
 }
     :root{
@@ -1011,7 +999,7 @@ p {
   .font_16 {
     font-size: 16px !important;
 }
-  .litigation_text_mb {
+  .litigation_text_space {
     margin-bottom: 250px;
 }
   .img_wdth_section_real {
@@ -1035,7 +1023,7 @@ p {
   top: -12%;
   left: 13%;
 }
-    .padding_top_150{
+    .litigation{
         padding-top: 150px;
     }
     .padding_top_200{
@@ -1060,7 +1048,7 @@ p {
       --fs_xsm:16px;
       --fs_xxsm:13px;
   }
-  .section_milad_margin_left {
+  .milad_space {
     margin-left: 200px;
 }
 }
@@ -1069,10 +1057,10 @@ p {
     width: 180px;
     height: 180px;
   }
-  .margin_cherry_sect_col {
+  .cherry_space {
     padding-top: 96px;
 }
-  .margin_icon {
+  .icon_space {
     margin-bottom: 195.5px;
 }
   .img_milad {
@@ -1099,7 +1087,7 @@ p {
     width: 720px;
     height: 983px;
 }
-  .pt_150 {
+  .deal_space {
     padding-top: 40px;
 }
   .height_section {
@@ -1114,7 +1102,7 @@ p {
     top: -19.7%;
     height: 1012px;
 }
-.margin_icon {
+.icon_space {
   margin-bottom: 193px;
 }
 }
