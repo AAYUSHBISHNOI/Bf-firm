@@ -94,7 +94,7 @@
 .color_peach {
     color: #fe6a5b;
 }
-.grey-hr {
+.grey_hr {
   width: 100%;
   opacity: 0.15;
   background: #000000;
@@ -662,7 +662,7 @@ p {
     .icon_scrool{
       width: 5%;
     }
-    .grey-hr {
+    .grey_hr {
         width: 70%;
         opacity: 0.15;
         background: #000000;
@@ -763,7 +763,7 @@ p {
 .height_section {
   min-height: 925px;
 }
-    .grey-hr {
+    .grey_hr {
         width: 81%;
         opacity: 0.15;
         background: #000000;
